@@ -1,0 +1,406 @@
+C:\Users\Jinwin\AppData\Local\Temporary Projects\ERS\bin\Debug\ERS.exe
+C:\Users\Jinwin\AppData\Local\Temporary Projects\ERS\bin\Debug\ERS.pdb
+C:\Users\Jinwin\AppData\Local\Temporary Projects\ERS\bin\Debug\ERS.xml
+C:\Users\Jinwin\AppData\Local\Temporary Projects\ERS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jinwin\AppData\Local\Temporary Projects\ERS\obj\Debug\ERS.Login.resources
+C:\Users\Jinwin\AppData\Local\Temporary Projects\ERS\obj\Debug\ERS.Resources.resources
+C:\Users\Jinwin\AppData\Local\Temporary Projects\ERS\obj\Debug\ERS.SplashScreen1.resources
+C:\Users\Jinwin\AppData\Local\Temporary Projects\ERS\obj\Debug\ERS.vbproj.GenerateResource.Cache
+C:\Users\Jinwin\AppData\Local\Temporary Projects\ERS\obj\Debug\ERS.exe
+C:\Users\Jinwin\AppData\Local\Temporary Projects\ERS\obj\Debug\ERS.xml
+C:\Users\Jinwin\AppData\Local\Temporary Projects\ERS\obj\Debug\ERS.pdb
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.exe
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.xml
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.pdb
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\bin\Debug\ERS.exe
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\bin\Debug\ERS.pdb
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\bin\Debug\ERS.xml
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.Resources.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.SplashScreen1.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.vbproj.GenerateResource.Cache
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\bin\Debug\MySql.Data.dll
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.AdminCreate.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.CashierCreate.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.RegistrarCreate.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.AdminPanel.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.RegistrarEdit.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.CashierEdit.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.DeleteRegistrar.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.DeleteCashier.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.StudentCreate.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.MainScreen.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.LoginAdmin.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.ViewStudentInfo.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.Forgot1.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.ChangePass.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.AddSubject.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.CashierLogin.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.RegistrarLogin.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.CashierPanel.resources
+C:\Users\Jinwin\Documents\Visual Studio 2008\Projects\ERS\ERS\obj\Debug\ERS.ForgotV.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.exe
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.xml
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.pdb
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\bin\Debug\ERS.exe
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\bin\Debug\ERS.pdb
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\bin\Debug\ERS.xml
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.vbprojResolveAssemblyReference.cache
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.AddSubject.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.AdminCreate.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.AdminPanel.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.CashierEdit.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.CashierCreate.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.CashierLogin.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.CashierPanel.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.ChangePass.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.DeleteCashier.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.DeleteRegistrar.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.Forgot1.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.ForgotV.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.LoginAdmin.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.MainScreen.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.Resources.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.RegistrarCreate.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.RegistrarEdit.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.RegistrarLogin.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.SplashScreen1.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.StudentCreate.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.ViewStudentInfo.resources
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.vbproj.GenerateResource.Cache
+C:\Users\princess\Downloads\ERS_v3_vs2010 (1)\ERS\ERS\obj\Debug\ERS.AdminCreate_1.resources
+F:\Systems\ERS\ERS\bin\Debug\ERS.exe.config
+F:\Systems\ERS\ERS\obj\Debug\ERS.exe
+F:\Systems\ERS\ERS\obj\Debug\ERS.xml
+F:\Systems\ERS\ERS\obj\Debug\ERS.pdb
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\ERS.exe.config
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.exe
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.pdb
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\ERS.exe
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\ERS.pdb
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\ERS.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.vbprojResolveAssemblyReference.cache
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.AddSubject.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.AdminCreate.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.AdminPanel.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.CashierEdit.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.CashierCreate.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.CashierLogin.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.CashierPanel.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.ChangePass.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.AdminCreate_1.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.DeleteCashier.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.DeleteRegistrar.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.Forgot1.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.ForgotV.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.LoginAdmin.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.MainScreen.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.Resources.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.RegistrarCreate.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.RegistrarEdit.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.RegistrarLogin.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.SplashScreen1.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.StudentCreate.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.ViewStudentInfo.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.vbproj.GenerateResource.Cache
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.RegistrarPanel.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\bin\Debug\MainScreen.resx
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\bin\Debug\MainScreen.Designer.vb
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\bin\Debug\MainScreen.vb
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\bin\Debug\ERS.exe.config
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\bin\Debug\ERS.exe
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\bin\Debug\ERS.pdb
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\bin\Debug\ERS.xml
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.AddSubject.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.AdminCreate.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.AdminPanel.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.CashierEdit.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.CashierCreate.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.CashierLogin.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.CashierPanel.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.ChangePass.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.AdminCreate_1.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.DeleteCashier.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.DeleteRegistrar.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.Forgot1.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.ForgotV.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.LoginAdmin.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.MainScreen.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.Resources.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.RegistrarCreate.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.RegistrarEdit.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.RegistrarLogin.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.RegistrarPanel.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.SplashScreen1.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.StudentCreate.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.ViewStudentInfo.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.vbproj.GenerateResource.Cache
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.exe
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.xml
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.pdb
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.Screen_Admin.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.Screen_Cashier.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.Screen_Registrar.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.vbprojResolveAssemblyReference.cache
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\MainScreen.resx
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\MainScreen.Designer.vb
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\MainScreen.vb
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.Screen_Admin.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.Screen_Cashier.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.Screen_Registrar.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.deleteAdmin.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.UpdateAdmin.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.UpdateCashier.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.UpdateRegistrar.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.DeleteSubj_R.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.DeleteSub_A.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.UpdateSub_A.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.UpdateSub_R.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.ViewSubject.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.ViewSubjectR.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.UpdateStudent_A.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.DeleteStudent_A.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.UpdateStudent_R.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.DeleteStudent_R.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.AddPayment_A.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.ViewStudent.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.ViewStudent_R.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.UpdatePayment_A.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.DeletePayment.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.AddPayment_A.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.deleteAdmin.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.DeletePayment.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.DeleteStudent_A.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.DeleteStudent_R.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.DeleteSubj_R.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.DeleteSub_A.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.UpdateAdmin.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.UpdateCashier.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.UpdatePayment_A.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.UpdateRegistrar.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.UpdateStudent_A.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.UpdateStudent_R.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.UpdateSub_A.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.UpdateSub_R.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.ViewStudent.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.ViewStudent_R.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.ViewSubject.resources
+C:\Users\Joven Maningas\Desktop\ProjectProposal_EnrollmentRecordSystem\dev\ERS\ERS\obj\Debug\ERS.ViewSubjectR.resources
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Controls.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.DebuggerVisualizers (2010).dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Fuzzy.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Genetic.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Imaging.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.MachineLearning.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Math.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Neuro.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Robotics.Lego.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Robotics.Surveyor.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Robotics.TeRK.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.FFMPEG.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.Kinect.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.VFW.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.Ximea.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Vision.dll
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Controls.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Fuzzy.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Genetic.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Imaging.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.MachineLearning.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Math.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Neuro.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Robotics.Lego.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Robotics.Surveyor.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Robotics.TeRK.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.FFMPEG.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.Kinect.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.VFW.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Video.Ximea.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\bin\Debug\AForge.Vision.xml
+C:\Users\Jinwin\Documents\Visual Studio 2010\Projects\ERS\ERS\obj\Debug\ERS.Webcam.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\ERS.exe.config
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.exe
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.pdb
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.vbprojResolveAssemblyReference.cache
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.AddPayment_A.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.AddSubject.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.AdminCreate.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.AdminPanel.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.CashierEdit.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.CashierCreate.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.CashierLogin.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.CashierPanel.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.ChangePass.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.AdminCreate_1.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.deleteAdmin.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.DeleteCashier.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.DeletePayment.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.DeleteRegistrar.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.DeleteStudent_A.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.DeleteStudent_R.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.DeleteSubj_R.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.DeleteSub_A.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.Forgot1.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.ForgotV.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.LoginAdmin.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.MainScreen.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.Resources.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.RegistrarCreate.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.RegistrarEdit.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.RegistrarLogin.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.RegistrarPanel.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.Screen_Admin.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.Screen_Cashier.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.Screen_Registrar.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.SplashScreen1.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.StudentCreate.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.UpdateAdmin.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.UpdateCashier.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.UpdatePayment_A.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.UpdateRegistrar.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.UpdateStudent_A.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.UpdateStudent_R.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.UpdateSub_A.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.UpdateSub_R.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.ViewStudent.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.ViewStudentInfo.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.ViewStudent_R.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.ViewSubject.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.ViewSubjectR.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.Webcam.resources
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\obj\Debug\ERS.vbproj.GenerateResource.Cache
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\MainScreen.resx
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\MainScreen.Designer.vb
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\MainScreen.vb
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\ERS.exe
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\ERS.pdb
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\ERS.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Controls.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.DebuggerVisualizers (2010).dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Fuzzy.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Genetic.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Imaging.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.MachineLearning.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Math.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Neuro.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Robotics.Lego.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Robotics.Surveyor.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Robotics.TeRK.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.FFMPEG.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.Kinect.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.VFW.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.Ximea.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Vision.dll
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Controls.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Fuzzy.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Genetic.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Imaging.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.MachineLearning.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Math.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Neuro.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Robotics.Lego.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Robotics.Surveyor.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Robotics.TeRK.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.FFMPEG.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.Kinect.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.VFW.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Video.Ximea.xml
+C:\Users\Jinwin\Documents\GitHub\ERS\ers\ERS\bin\Debug\AForge.Vision.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\ERS.exe.config
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.exe
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.pdb
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\MainScreen.resx
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\MainScreen.Designer.vb
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\MainScreen.vb
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\ERS.exe
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\ERS.pdb
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\ERS.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Controls.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Fuzzy.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Genetic.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Imaging.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.MachineLearning.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Math.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Neuro.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Robotics.Lego.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Robotics.Surveyor.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Robotics.TeRK.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Video.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Video.FFMPEG.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Video.Kinect.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Video.VFW.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Video.Ximea.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\bin\Debug\AForge.Vision.xml
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.vbprojResolveAssemblyReference.cache
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.AboutBox1.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.AddPayment_A.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.AddSubject.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.AdminCreate.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.AdminPanel.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.CashierEdit.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.CashierCreate.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.CashierLogin.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.CashierPanel.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.ChangePass.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.AdminCreate_1.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.deleteAdmin.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.DeleteCashier.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.DeletePayment.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.DeleteRegistrar.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.DeleteStudent_A.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.DeleteStudent_R.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.DeleteSubj_R.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.DeleteSub_A.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.Forgot1.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.ForgotV.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.LoginAdmin.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.MainScreen.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.Resources.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.RegistrarCreate.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.RegistrarEdit.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.RegistrarLogin.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.RegistrarPanel.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.Screen_Admin.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.Screen_Cashier.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.Screen_Registrar.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.SplashScreen1.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.StudentCreate.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.UpdateAdmin.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.UpdateCashier.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.UpdatePayment_A.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.UpdateRegistrar.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.UpdateStudent_A.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.UpdateStudent_R.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.UpdateSub_A.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.UpdateSub_R.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.ViewStudent.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.ViewStudentInfo.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.ViewStudent_R.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.ViewSubject.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.ViewSubjectR.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.Webcam.resources
+C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.vbproj.GenerateResource.Cache
