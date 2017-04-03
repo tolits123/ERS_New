@@ -404,3 +404,7 @@ C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.ViewSubject.r
 C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.ViewSubjectR.resources
 C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.Webcam.resources
 C:\Users\Joven Maningas\Documents\GitHub\ers\ers\ERS\obj\Debug\ERS.vbproj.GenerateResource.Cache
+C:\Users\Joven Maningas\Documents\GitHub\ERS_New\ERS\bin\Debug\ERS.exe.config
+C:\Users\Joven Maningas\Documents\GitHub\ERS_New\ERS\obj\Debug\ERS.exe
+C:\Users\Joven Maningas\Documents\GitHub\ERS_New\ERS\obj\Debug\ERS.xml
+C:\Users\Joven Maningas\Documents\GitHub\ERS_New\ERS\obj\Debug\ERS.pdb

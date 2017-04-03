@@ -1,7 +1,8 @@
 ﻿Public Class AddPayment_A
 
     Private Sub AddPayment_A_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-       
+
+
 
         'Dim tuition As Integer
         'tuition = t / 3
