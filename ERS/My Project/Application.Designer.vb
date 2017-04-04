@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.ERS.SplashScreen1
+            Me.MainForm = Global.ERS.AddPayment_A
         End Sub
     End Class
 End Namespace

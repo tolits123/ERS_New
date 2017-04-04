@@ -23,6 +23,7 @@ Partial Class UpdateAdmin
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.status = New System.Windows.Forms.ComboBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.pl = New System.Windows.Forms.TextBox()
         Me.UpdateAdmin_btn = New System.Windows.Forms.Button()
@@ -44,7 +45,6 @@ Partial Class UpdateAdmin
         Me.en = New System.Windows.Forms.TextBox()
         Me.ValidateAccountUpdate_btn = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.GroupBox2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -52,7 +52,7 @@ Partial Class UpdateAdmin
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.ComboBox1)
+        Me.GroupBox2.Controls.Add(Me.status)
         Me.GroupBox2.Controls.Add(Me.PictureBox1)
         Me.GroupBox2.Controls.Add(Me.pl)
         Me.GroupBox2.Controls.Add(Me.UpdateAdmin_btn)
@@ -77,6 +77,15 @@ Partial Class UpdateAdmin
         Me.GroupBox2.TabIndex = 14
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Personal Information"
+        '
+        'status
+        '
+        Me.status.FormattingEnabled = True
+        Me.status.Location = New System.Drawing.Point(291, 135)
+        Me.status.Name = "status"
+        Me.status.Size = New System.Drawing.Size(103, 21)
+        Me.status.TabIndex = 13
+        Me.status.Text = "Active"
         '
         'PictureBox1
         '
@@ -254,15 +263,6 @@ Partial Class UpdateAdmin
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "EmployeeID:"
         '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(291, 135)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(103, 21)
-        Me.ComboBox1.TabIndex = 13
-        Me.ComboBox1.Text = "Active"
-        '
         'UpdateAdmin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -303,5 +303,5 @@ Partial Class UpdateAdmin
     Friend WithEvents en As System.Windows.Forms.TextBox
     Friend WithEvents ValidateAccountUpdate_btn As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents status As System.Windows.Forms.ComboBox
 End Class
