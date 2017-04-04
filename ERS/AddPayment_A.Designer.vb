@@ -26,9 +26,7 @@ Partial Class AddPayment_A
         Me.sn = New System.Windows.Forms.TextBox()
         Me.SearchAddpayemt_btn = New System.Windows.Forms.Button()
         Me.miscellaneous_fee_grp = New System.Windows.Forms.GroupBox()
-        Me.Label20 = New System.Windows.Forms.Label()
         Me.enterTuition_btn = New System.Windows.Forms.Button()
-        Me.getSubj = New System.Windows.Forms.ComboBox()
         Me.total = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.pp_rdbnt = New System.Windows.Forms.RadioButton()
@@ -50,32 +48,32 @@ Partial Class AddPayment_A
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.totalBooks = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.p9 = New System.Windows.Forms.TextBox()
-        Me.p8 = New System.Windows.Forms.TextBox()
-        Me.p7 = New System.Windows.Forms.TextBox()
-        Me.p6 = New System.Windows.Forms.TextBox()
-        Me.p5 = New System.Windows.Forms.TextBox()
-        Me.p4 = New System.Windows.Forms.TextBox()
-        Me.p3 = New System.Windows.Forms.TextBox()
-        Me.p2 = New System.Windows.Forms.TextBox()
-        Me.p1 = New System.Windows.Forms.TextBox()
-        Me.Patch = New System.Windows.Forms.TextBox()
-        Me.IdLace = New System.Windows.Forms.TextBox()
-        Me.Subj9 = New System.Windows.Forms.Label()
-        Me.Subj8 = New System.Windows.Forms.Label()
-        Me.Subj7 = New System.Windows.Forms.Label()
-        Me.Subj6 = New System.Windows.Forms.Label()
-        Me.Subj5 = New System.Windows.Forms.Label()
-        Me.Subj4 = New System.Windows.Forms.Label()
-        Me.Subj3 = New System.Windows.Forms.Label()
-        Me.Subj2 = New System.Windows.Forms.Label()
-        Me.Subj1 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.label = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
         Me.miscellaneous_fee_grp.SuspendLayout()
         Me.Payment_grp.SuspendLayout()
         Me.EnterPartial_grp.SuspendLayout()
@@ -112,7 +110,7 @@ Partial Class AddPayment_A
         '
         Me.miscellaneous_fee_grp.Controls.Add(Me.Label20)
         Me.miscellaneous_fee_grp.Controls.Add(Me.enterTuition_btn)
-        Me.miscellaneous_fee_grp.Controls.Add(Me.getSubj)
+        Me.miscellaneous_fee_grp.Controls.Add(Me.ComboBox1)
         Me.miscellaneous_fee_grp.Controls.Add(Me.total)
         Me.miscellaneous_fee_grp.Controls.Add(Me.Label7)
         Me.miscellaneous_fee_grp.Controls.Add(Me.pp_rdbnt)
@@ -125,15 +123,6 @@ Partial Class AddPayment_A
         Me.miscellaneous_fee_grp.TabStop = False
         Me.miscellaneous_fee_grp.Text = "EnterTuition fee:"
         '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(8, 36)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(65, 13)
-        Me.Label20.TabIndex = 9
-        Me.Label20.Text = "Grade Level"
-        '
         'enterTuition_btn
         '
         Me.enterTuition_btn.Location = New System.Drawing.Point(242, 60)
@@ -142,16 +131,6 @@ Partial Class AddPayment_A
         Me.enterTuition_btn.TabIndex = 2
         Me.enterTuition_btn.Text = ">>"
         Me.enterTuition_btn.UseVisualStyleBackColor = True
-        '
-        'getSubj
-        '
-        Me.getSubj.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.getSubj.FormattingEnabled = True
-        Me.getSubj.Items.AddRange(New Object() {"Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6"})
-        Me.getSubj.Location = New System.Drawing.Point(132, 28)
-        Me.getSubj.Name = "getSubj"
-        Me.getSubj.Size = New System.Drawing.Size(103, 21)
-        Me.getSubj.TabIndex = 8
         '
         'total
         '
@@ -353,222 +332,76 @@ Partial Class AddPayment_A
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.totalBooks)
         Me.GroupBox1.Controls.Add(Me.CheckBox1)
-        Me.GroupBox1.Controls.Add(Me.p9)
-        Me.GroupBox1.Controls.Add(Me.p8)
-        Me.GroupBox1.Controls.Add(Me.label)
-        Me.GroupBox1.Controls.Add(Me.p7)
-        Me.GroupBox1.Controls.Add(Me.p6)
-        Me.GroupBox1.Controls.Add(Me.p5)
-        Me.GroupBox1.Controls.Add(Me.p4)
-        Me.GroupBox1.Controls.Add(Me.p3)
-        Me.GroupBox1.Controls.Add(Me.p2)
-        Me.GroupBox1.Controls.Add(Me.p1)
-        Me.GroupBox1.Controls.Add(Me.Patch)
-        Me.GroupBox1.Controls.Add(Me.IdLace)
-        Me.GroupBox1.Controls.Add(Me.Subj9)
-        Me.GroupBox1.Controls.Add(Me.Subj8)
-        Me.GroupBox1.Controls.Add(Me.Subj7)
-        Me.GroupBox1.Controls.Add(Me.Subj6)
-        Me.GroupBox1.Controls.Add(Me.Subj5)
-        Me.GroupBox1.Controls.Add(Me.Subj4)
-        Me.GroupBox1.Controls.Add(Me.Subj3)
-        Me.GroupBox1.Controls.Add(Me.Subj2)
-        Me.GroupBox1.Controls.Add(Me.Subj1)
+        Me.GroupBox1.Controls.Add(Me.TextBox11)
+        Me.GroupBox1.Controls.Add(Me.TextBox10)
+        Me.GroupBox1.Controls.Add(Me.TextBox9)
+        Me.GroupBox1.Controls.Add(Me.TextBox8)
+        Me.GroupBox1.Controls.Add(Me.TextBox7)
+        Me.GroupBox1.Controls.Add(Me.TextBox6)
+        Me.GroupBox1.Controls.Add(Me.TextBox5)
+        Me.GroupBox1.Controls.Add(Me.TextBox4)
+        Me.GroupBox1.Controls.Add(Me.TextBox3)
+        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.Label18)
+        Me.GroupBox1.Controls.Add(Me.Label17)
+        Me.GroupBox1.Controls.Add(Me.Label16)
+        Me.GroupBox1.Controls.Add(Me.Label15)
+        Me.GroupBox1.Controls.Add(Me.Label14)
+        Me.GroupBox1.Controls.Add(Me.Label13)
+        Me.GroupBox1.Controls.Add(Me.Label12)
+        Me.GroupBox1.Controls.Add(Me.Label11)
+        Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 187)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(286, 348)
+        Me.GroupBox1.Size = New System.Drawing.Size(286, 329)
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Books and Items"
         '
-        'totalBooks
+        'Label13
         '
-        Me.totalBooks.AutoSize = True
-        Me.totalBooks.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalBooks.Location = New System.Drawing.Point(120, 327)
-        Me.totalBooks.Name = "totalBooks"
-        Me.totalBooks.Size = New System.Drawing.Size(45, 13)
-        Me.totalBooks.TabIndex = 23
-        Me.totalBooks.Text = "Label9"
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(33, 172)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(49, 13)
+        Me.Label13.TabIndex = 5
+        Me.Label13.Text = "Subject6"
         '
-        'CheckBox1
+        'Label12
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(209, 17)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(71, 17)
-        Me.CheckBox1.TabIndex = 22
-        Me.CheckBox1.Text = "Edit Price"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(33, 146)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(49, 13)
+        Me.Label12.TabIndex = 4
+        Me.Label12.Text = "Subject5"
         '
-        'p9
+        'Label11
         '
-        Me.p9.Location = New System.Drawing.Point(123, 299)
-        Me.p9.Name = "p9"
-        Me.p9.Size = New System.Drawing.Size(100, 20)
-        Me.p9.TabIndex = 21
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(32, 120)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(49, 13)
+        Me.Label11.TabIndex = 3
+        Me.Label11.Text = "Subject4"
         '
-        'p8
+        'Label9
         '
-        Me.p8.Location = New System.Drawing.Point(123, 272)
-        Me.p8.Name = "p8"
-        Me.p8.Size = New System.Drawing.Size(100, 20)
-        Me.p8.TabIndex = 20
-        '
-        'p7
-        '
-        Me.p7.Location = New System.Drawing.Point(123, 247)
-        Me.p7.Name = "p7"
-        Me.p7.Size = New System.Drawing.Size(100, 20)
-        Me.p7.TabIndex = 19
-        '
-        'p6
-        '
-        Me.p6.Location = New System.Drawing.Point(123, 221)
-        Me.p6.Name = "p6"
-        Me.p6.Size = New System.Drawing.Size(100, 20)
-        Me.p6.TabIndex = 18
-        '
-        'p5
-        '
-        Me.p5.Location = New System.Drawing.Point(123, 195)
-        Me.p5.Name = "p5"
-        Me.p5.Size = New System.Drawing.Size(100, 20)
-        Me.p5.TabIndex = 17
-        '
-        'p4
-        '
-        Me.p4.Location = New System.Drawing.Point(123, 169)
-        Me.p4.Name = "p4"
-        Me.p4.Size = New System.Drawing.Size(100, 20)
-        Me.p4.TabIndex = 16
-        '
-        'p3
-        '
-        Me.p3.Location = New System.Drawing.Point(123, 143)
-        Me.p3.Name = "p3"
-        Me.p3.Size = New System.Drawing.Size(100, 20)
-        Me.p3.TabIndex = 15
-        '
-        'p2
-        '
-        Me.p2.Location = New System.Drawing.Point(123, 117)
-        Me.p2.Name = "p2"
-        Me.p2.Size = New System.Drawing.Size(100, 20)
-        Me.p2.TabIndex = 14
-        '
-        'p1
-        '
-        Me.p1.Location = New System.Drawing.Point(123, 91)
-        Me.p1.Name = "p1"
-        Me.p1.Size = New System.Drawing.Size(100, 20)
-        Me.p1.TabIndex = 13
-        '
-        'Patch
-        '
-        Me.Patch.Location = New System.Drawing.Point(123, 65)
-        Me.Patch.Name = "Patch"
-        Me.Patch.Size = New System.Drawing.Size(100, 20)
-        Me.Patch.TabIndex = 12
-        Me.Patch.Text = "50"
-        '
-        'IdLace
-        '
-        Me.IdLace.Location = New System.Drawing.Point(123, 39)
-        Me.IdLace.Name = "IdLace"
-        Me.IdLace.Size = New System.Drawing.Size(100, 20)
-        Me.IdLace.TabIndex = 11
-        Me.IdLace.Text = "75"
-        '
-        'Subj9
-        '
-        Me.Subj9.AutoSize = True
-        Me.Subj9.Location = New System.Drawing.Point(18, 302)
-        Me.Subj9.Name = "Subj9"
-        Me.Subj9.Size = New System.Drawing.Size(49, 13)
-        Me.Subj9.TabIndex = 10
-        Me.Subj9.Text = "Subject2"
-        '
-        'Subj8
-        '
-        Me.Subj8.AutoSize = True
-        Me.Subj8.Location = New System.Drawing.Point(18, 275)
-        Me.Subj8.Name = "Subj8"
-        Me.Subj8.Size = New System.Drawing.Size(49, 13)
-        Me.Subj8.TabIndex = 9
-        Me.Subj8.Text = "Subject1"
-        '
-        'Subj7
-        '
-        Me.Subj7.AutoSize = True
-        Me.Subj7.Location = New System.Drawing.Point(17, 250)
-        Me.Subj7.Name = "Subj7"
-        Me.Subj7.Size = New System.Drawing.Size(55, 13)
-        Me.Subj7.TabIndex = 8
-        Me.Subj7.Text = "Subject10"
-        '
-        'Subj6
-        '
-        Me.Subj6.AutoSize = True
-        Me.Subj6.Location = New System.Drawing.Point(18, 224)
-        Me.Subj6.Name = "Subj6"
-        Me.Subj6.Size = New System.Drawing.Size(49, 13)
-        Me.Subj6.TabIndex = 7
-        Me.Subj6.Text = "Subject9"
-        '
-        'Subj5
-        '
-        Me.Subj5.AutoSize = True
-        Me.Subj5.Location = New System.Drawing.Point(17, 198)
-        Me.Subj5.Name = "Subj5"
-        Me.Subj5.Size = New System.Drawing.Size(49, 13)
-        Me.Subj5.TabIndex = 6
-        Me.Subj5.Text = "Subject8"
-        '
-        'Subj4
-        '
-        Me.Subj4.AutoSize = True
-        Me.Subj4.Location = New System.Drawing.Point(18, 172)
-        Me.Subj4.Name = "Subj4"
-        Me.Subj4.Size = New System.Drawing.Size(49, 13)
-        Me.Subj4.TabIndex = 5
-        Me.Subj4.Text = "Subject6"
-        '
-        'Subj3
-        '
-        Me.Subj3.AutoSize = True
-        Me.Subj3.Location = New System.Drawing.Point(18, 146)
-        Me.Subj3.Name = "Subj3"
-        Me.Subj3.Size = New System.Drawing.Size(49, 13)
-        Me.Subj3.TabIndex = 4
-        Me.Subj3.Text = "Subject5"
-        '
-        'Subj2
-        '
-        Me.Subj2.AutoSize = True
-        Me.Subj2.Location = New System.Drawing.Point(17, 120)
-        Me.Subj2.Name = "Subj2"
-        Me.Subj2.Size = New System.Drawing.Size(34, 13)
-        Me.Subj2.TabIndex = 3
-        Me.Subj2.Text = "Subj2"
-        '
-        'Subj1
-        '
-        Me.Subj1.AutoSize = True
-        Me.Subj1.Location = New System.Drawing.Point(18, 94)
-        Me.Subj1.Name = "Subj1"
-        Me.Subj1.Size = New System.Drawing.Size(49, 13)
-        Me.Subj1.TabIndex = 2
-        Me.Subj1.Text = "Subject3"
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(33, 94)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(49, 13)
+        Me.Label9.TabIndex = 2
+        Me.Label9.Text = "Subject3"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(18, 68)
+        Me.Label6.Location = New System.Drawing.Point(33, 68)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(35, 13)
         Me.Label6.TabIndex = 1
@@ -577,11 +410,152 @@ Partial Class AddPayment_A
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(18, 42)
+        Me.Label3.Location = New System.Drawing.Point(33, 42)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(45, 13)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "ID Lace"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(32, 198)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(49, 13)
+        Me.Label14.TabIndex = 6
+        Me.Label14.Text = "Subject8"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(33, 224)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(49, 13)
+        Me.Label15.TabIndex = 7
+        Me.Label15.Text = "Subject9"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(32, 250)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(55, 13)
+        Me.Label16.TabIndex = 8
+        Me.Label16.Text = "Subject10"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(33, 275)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(49, 13)
+        Me.Label17.TabIndex = 9
+        Me.Label17.Text = "Subject1"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(33, 302)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(49, 13)
+        Me.Label18.TabIndex = 10
+        Me.Label18.Text = "Subject2"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(138, 39)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 11
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(138, 65)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.TabIndex = 12
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(138, 91)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.TabIndex = 13
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(138, 117)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox4.TabIndex = 14
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(138, 143)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox5.TabIndex = 15
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(138, 169)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox6.TabIndex = 16
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(138, 195)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox7.TabIndex = 17
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(138, 221)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox8.TabIndex = 18
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Location = New System.Drawing.Point(138, 247)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox9.TabIndex = 19
+        '
+        'TextBox10
+        '
+        Me.TextBox10.Location = New System.Drawing.Point(138, 272)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox10.TabIndex = 20
+        '
+        'TextBox11
+        '
+        Me.TextBox11.Location = New System.Drawing.Point(138, 299)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox11.TabIndex = 21
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(208, 16)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(71, 17)
+        Me.CheckBox1.TabIndex = 22
+        Me.CheckBox1.Text = "Edit Price"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(132, 28)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(103, 21)
+        Me.ComboBox1.TabIndex = 8
+        Me.ComboBox1.Text = "Grade 1"
         '
         'GroupBox2
         '
@@ -596,21 +570,20 @@ Partial Class AddPayment_A
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Student Information"
         '
-        'label
+        'Label20
         '
-        Me.label.AutoSize = True
-        Me.label.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label.Location = New System.Drawing.Point(18, 326)
-        Me.label.Name = "label"
-        Me.label.Size = New System.Drawing.Size(48, 16)
-        Me.label.TabIndex = 0
-        Me.label.Text = "Total:"
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(8, 36)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(65, 13)
+        Me.Label20.TabIndex = 9
+        Me.Label20.Text = "Grade Level"
         '
         'AddPayment_A
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(604, 536)
+        Me.ClientSize = New System.Drawing.Size(604, 528)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Proceed_btn)
@@ -663,32 +636,30 @@ Partial Class AddPayment_A
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
-    Friend WithEvents Subj4 As System.Windows.Forms.Label
-    Friend WithEvents Subj3 As System.Windows.Forms.Label
-    Friend WithEvents Subj2 As System.Windows.Forms.Label
-    Friend WithEvents Subj1 As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents p9 As System.Windows.Forms.TextBox
-    Friend WithEvents p8 As System.Windows.Forms.TextBox
-    Friend WithEvents p7 As System.Windows.Forms.TextBox
-    Friend WithEvents p6 As System.Windows.Forms.TextBox
-    Friend WithEvents p5 As System.Windows.Forms.TextBox
-    Friend WithEvents p4 As System.Windows.Forms.TextBox
-    Friend WithEvents p3 As System.Windows.Forms.TextBox
-    Friend WithEvents p2 As System.Windows.Forms.TextBox
-    Friend WithEvents p1 As System.Windows.Forms.TextBox
-    Friend WithEvents Patch As System.Windows.Forms.TextBox
-    Friend WithEvents IdLace As System.Windows.Forms.TextBox
-    Friend WithEvents Subj9 As System.Windows.Forms.Label
-    Friend WithEvents Subj8 As System.Windows.Forms.Label
-    Friend WithEvents Subj7 As System.Windows.Forms.Label
-    Friend WithEvents Subj6 As System.Windows.Forms.Label
-    Friend WithEvents Subj5 As System.Windows.Forms.Label
+    Friend WithEvents TextBox11 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox10 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Label18 As System.Windows.Forms.Label
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
-    Friend WithEvents getSubj As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents Label20 As System.Windows.Forms.Label
-    Friend WithEvents totalBooks As System.Windows.Forms.Label
-    Friend WithEvents label As System.Windows.Forms.Label
 End Class

@@ -1,7 +1,5 @@
 ﻿Public Class AddPayment_A
-    Public grade1 As Integer = 1000
-    Public grade2 As Integer = 2000
-    Public t As Integer
+
     Private Sub AddPayment_A_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
 
@@ -21,17 +19,8 @@
         Payment_grp.Text = "Full payment"
         partialp.Text = ""
         Dim t As Integer = total.Text
-        Dim totalB As Integer = totalBooks.Text
         total.Text = t
-        If grade.Text = "Grade 1" Then
-            t = total.Text
-            t = t + grade1 + totalB
-            total1.Text = t
-        ElseIf grade.Text = "Grade 2" Then
-            t = total.Text
-            t = t + grade2 + totalB
-            total1.Text = t
-        End If
+
         EnterPartial_grp.Enabled = False
         Dim tuition As Integer
         tuition = t / 2
@@ -53,14 +42,14 @@
 
             Dim tuition As Integer
             Dim partialpayment As Integer
-            Dim total2 As Integer
+            Dim total1 As Integer
             Dim tuition1 As Integer
-            tuition = total1.Text
+            tuition = total.Text
             partialpayment = partialp.Text
 
-            total2 = tuition - partialpayment
+            total1 = tuition - partialpayment
 
-            tuition1 = total2 / 2
+            tuition1 = total1 / 2
 
             prelim.Text = tuition1
             midterm.Text = tuition1
@@ -81,22 +70,24 @@
         Proceed_btn.Enabled = False
         prelim.Text = "-"
         midterm.Text = "-"
-        Dim totalB As Integer = totalBooks.Text
-        If grade.Text = "Grade 1" Then
-            t = total.Text
-            t = t + grade1 + totalB
-            total1.Text = t
-        ElseIf grade.Text = "Grade 2" Then
-            t = total.Text
-            t = t + grade2 + totalB
-            total1.Text = t
-        End If
+        Dim t As Integer = total.Text
+        total.Text = t
+        total1.Text = total.Text
     End Sub
 
     Private Sub SearchAddpayemt_btn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SearchAddpayemt_btn.Click
         Try
             SearchAddPayment_A()
-        
+            If grade.Text = "Grade 1" Then
+
+            ElseIf grade.Text = "Grade 2" Then
+
+
+
+
+            End If
+
+
 
 
 
@@ -125,7 +116,6 @@
             sn.Text = ""
             prelim.Text = "-"
             midterm.Text = "-"
-            total.Enabled = True
         ElseIf pp_rdbnt.Checked = True Then
             Proceed_btn.Enabled = False
             PartialPayment_A()
@@ -142,7 +132,6 @@
             sn.Text = ""
             prelim.Text = "-"
             midterm.Text = "-"
-            total.Enabled = True
         End If
         nameOS.Text = "---"
         grade.Text = "---"
@@ -152,77 +141,18 @@
 
     Private Sub enterTuition_btn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles enterTuition_btn.Click
         partialp.Text = ""
-        t = total.Text
+        Dim t As Integer = total.Text
         total.Text = t
-        Dim totalB As Integer = totalBooks.Text
         total1.Text = total.Text
         fp_rdobnt.Enabled = True
         pp_rdbnt.Enabled = True
-        total.Enabled = False
-        If grade.Text = "Grade 1" Then
-            t = total.Text
-            t = t + grade1 + totalB
-            total1.Text = t
-        ElseIf grade.Text = "Grade 2" Then
-
-            t = total.Text
-            t = t + grade2 + totalB
-            total1.Text = t
 
 
-        End If
     End Sub
 
-    Private Sub getSubj_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles getSubj.SelectedIndexChanged
-        If getSubj.SelectedItem = "" Then
-            MsgBox("Please select Subject:")
+    Private Sub GroupBox2_Enter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles GroupBox2.Enter
 
-        ElseIf getSubj.SelectedItem = "Grade 1" Then
-            Subj1.Text = "Mathematics 1"
-            Subj2.Text = "Filipino 1"
-            Subj3.Text = "Science 1"
-            Subj4.Text = "English 1"
-            Subj5.Text = "MSEP 1"
-            Subj6.Text = "EPP 1"
-            Subj7.Text = "Computer 1"
-            Subj8.Text = "TLE 1"
-            Subj9.Text = "EP 1"
-
-            p1.Text = "100"
-            p2.Text = "100"
-            p3.Text = "100"
-            p4.Text = "100"
-            p5.Text = "100"
-            p6.Text = "100"
-            p7.Text = "100"
-            p8.Text = "100"
-            p9.Text = "100"
-            subjandbooksComputation()
-
-
-        ElseIf getSubj.SelectedItem = "Grade 2" Then
-            Subj1.Text = "Mathematics 2"
-            Subj2.Text = "Filipino 2"
-            Subj3.Text = "Science 2"
-            Subj4.Text = "English 2"
-            Subj5.Text = "MSEP 2"
-            Subj6.Text = "EPP 2"
-            Subj7.Text = "Computer 2"
-            Subj8.Text = "TLE 2"
-            Subj9.Text = "EP 2"
-
-            p1.Text = "100"
-            p2.Text = "100"
-            p3.Text = "100"
-            p4.Text = "100"
-            p5.Text = "100"
-            p6.Text = "100"
-            p7.Text = "100"
-            p8.Text = "100"
-            p9.Text = "75"
-            subjandbooksComputation()
-
-
+<<<<<<< HEAD
         End If
     End Sub
     Private Sub subjandbooksComputation()
@@ -242,5 +172,7 @@
 
         'comment
         totalBooks.Text = total
+=======
+>>>>>>> parent of fbcd98c... [04032017] Updated Payment_frm, AdminUpdate_frm, CashierUpdate_frm, RegistrarUpdate_frm
     End Sub
 End Class

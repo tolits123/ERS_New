@@ -6,16 +6,10 @@ Module Module1
     Public r As MySqlDataReader
     Public ins As New MySqlCommand
     Public objConn As New MySqlConnection
-    'Public server As String = "127.0.0.1" 'papalitan to ng ip address ng server pag need na siya i connect sa LAN
-    'Public port As String = "3306" 'gagawing 3306 to pag need na i connect sa LAN, or kung anong port yung na set natin
-    'Public user As String = "ers_admin" 'for now, root yung user, pero, magdadagdag tayo ng new username pag LAN
-    'Public password As String = "12345" 'no password si root dun sa wamp natin, so leave it empty
-    'Public database As String = "ers" ' eto yung name ng database natin, ers.
-
     Public server As String = "127.0.0.1" 'papalitan to ng ip address ng server pag need na siya i connect sa LAN
-    Public port As String = "" 'gagawing 3306 to pag need na i connect sa LAN, or kung anong port yung na set natin
-    Public user As String = "root" 'for now, root yung user, pero, magdadagdag tayo ng new username pag LAN
-    Public password As String = "" 'no password si root dun sa wamp natin, so leave it empty
+    Public port As String = "3306" 'gagawing 3306 to pag need na i connect sa LAN, or kung anong port yung na set natin
+    Public user As String = "ers_admin" 'for now, root yung user, pero, magdadagdag tayo ng new username pag LAN
+    Public password As String = "12345" 'no password si root dun sa wamp natin, so leave it empty
     Public database As String = "ers" ' eto yung name ng database natin, ers.
     Public Sub splash()
         'connection string na ginagamit ng system natin para mag connect sa database
@@ -1559,7 +1553,7 @@ Module Module1
               And My.Forms.UpdateAdmin.cno.Text = "") Then
                 MsgBox("Please enter the empty fields")
             Else
-                Dim reg As String = "UPDATE admin SET Surname = '" & My.Forms.UpdateAdmin.ln.Text & "', GivenName = '" & My.Forms.UpdateAdmin.fn.Text & "', MiddleName = '" & My.Forms.UpdateAdmin.mn.Text & "', Birthday = '" & My.Forms.UpdateAdmin.bd.Text & "', Address = '" & My.Forms.UpdateAdmin.add.Text & "', Email_Account = '" & My.Forms.UpdateAdmin.eadd.Text & "', ContactNumber = '" & My.Forms.UpdateAdmin.cno.Text & "', status = '" & My.Forms.UpdateAdmin.status.Text & "'"
+                Dim reg As String = "UPDATE admin SET Surname = '" & My.Forms.UpdateAdmin.ln.Text & "', GivenName = '" & My.Forms.UpdateAdmin.fn.Text & "', MiddleName = '" & My.Forms.UpdateAdmin.mn.Text & "', Birthday = '" & My.Forms.UpdateAdmin.bd.Text & "', Address = '" & My.Forms.UpdateAdmin.add.Text & "', Email_Account = '" & My.Forms.UpdateAdmin.eadd.Text & "', ContactNumber = '" & My.Forms.UpdateAdmin.cno.Text & "'"
                 Using cn1 = New MySqlConnection("server= '" & server & "'; userid= '" & user & "'; port= '" & port & "';password= '" & password & "';database='" & database & "'")
                     Using sqlCmd = New MySqlCommand(reg, cn1)
                         cn1.Open()
@@ -1630,7 +1624,7 @@ Module Module1
               And My.Forms.UpdateRegistrar.cno.Text = "") Then
                 MsgBox("Please enter the empty fields")
             Else
-                Dim reg As String = "UPDATE registrar_account SET Surname = '" & My.Forms.UpdateRegistrar.ln.Text & "', GivenName = '" & My.Forms.UpdateRegistrar.fn.Text & "', MiddleName = '" & My.Forms.UpdateRegistrar.mn.Text & "', Birthday = '" & My.Forms.UpdateRegistrar.bd.Text & "', Address = '" & My.Forms.UpdateRegistrar.add.Text & "', Email_Account = '" & My.Forms.UpdateRegistrar.eadd.Text & "'ContactNumber = '" & My.Forms.UpdateCashier.cno.Text & "' status = '" & My.Forms.UpdateCashier.status.Text & "'"
+                Dim reg As String = "UPDATE registrar_account SET Surname = '" & My.Forms.UpdateRegistrar.ln.Text & "', GivenName = '" & My.Forms.UpdateRegistrar.fn.Text & "', MiddleName = '" & My.Forms.UpdateRegistrar.mn.Text & "', Birthday = '" & My.Forms.UpdateRegistrar.bd.Text & "', Address = '" & My.Forms.UpdateRegistrar.add.Text & "', Email_Account = '" & My.Forms.UpdateRegistrar.eadd.Text & "', ContactNumber = '" & My.Forms.UpdateRegistrar.cno.Text & "'"
                 Using cn1 = New MySqlConnection("server= '" & server & "'; userid= '" & user & "'; port= '" & port & "';password= '" & password & "';database='" & database & "'")
                     Using sqlCmd = New MySqlCommand(reg, cn1)
                         cn1.Open()
@@ -1701,7 +1695,7 @@ Module Module1
               And My.Forms.UpdateCashier.cno.Text = "") Then
                 MsgBox("Please enter the empty fields")
             Else
-                Dim reg As String = "UPDATE cashier_account SET Surname = '" & My.Forms.UpdateCashier.ln.Text & "', GivenName = '" & My.Forms.UpdateCashier.fn.Text & "', MiddleName = '" & My.Forms.UpdateCashier.mn.Text & "', Birthday = '" & My.Forms.UpdateCashier.bd.Text & "', Address = '" & My.Forms.UpdateCashier.add.Text & "', Email_Account = '" & My.Forms.UpdateCashier.eadd.Text & "', ContactNumber = '" & My.Forms.UpdateCashier.cno.Text & "', status = '" & My.Forms.UpdateCashier.status.Text & "'"
+                Dim reg As String = "UPDATE cashier_account SET Surname = '" & My.Forms.UpdateCashier.ln.Text & "', GivenName = '" & My.Forms.UpdateCashier.fn.Text & "', MiddleName = '" & My.Forms.UpdateCashier.mn.Text & "', Birthday = '" & My.Forms.UpdateCashier.bd.Text & "', Address = '" & My.Forms.UpdateCashier.add.Text & "', Email_Account = '" & My.Forms.UpdateCashier.eadd.Text & "', ContactNumber = '" & My.Forms.UpdateCashier.cno.Text & "'"
                 Using cn1 = New MySqlConnection("server= '" & server & "'; userid= '" & user & "'; port= '" & port & "';password= '" & password & "';database='" & database & "'")
                     Using sqlCmd = New MySqlCommand(reg, cn1)
                         cn1.Open()
