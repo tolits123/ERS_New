@@ -15,6 +15,7 @@ Module Module1
         'connection string na ginagamit ng system natin para mag connect sa database
         cn.ConnectionString = "server= '" & server & "';port= '" & port & "';userid= '" & user & "';password= '" & password & "';database='" & database & "'"
         cn.Open()
+
         'Splash screen if database is null
         Dim stm As String = "SELECT * FROM admin WHERE EmployeeID IS NOT NULL"
         Dim cmd As MySqlCommand = New MySqlCommand(stm, cn)

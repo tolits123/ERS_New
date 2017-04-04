@@ -32,9 +32,9 @@ Partial Class AboutBox1
         Me.TableLayoutPanel = New System.Windows.Forms.TableLayoutPanel()
         Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
         Me.LabelProductName = New System.Windows.Forms.Label()
+        Me.LabelVersion = New System.Windows.Forms.Label()
         Me.TextBoxDescription = New System.Windows.Forms.TextBox()
         Me.OKButton = New System.Windows.Forms.Button()
-        Me.LabelVersion = New System.Windows.Forms.Label()
         Me.TableLayoutPanel.SuspendLayout()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -87,6 +87,18 @@ Partial Class AboutBox1
         Me.LabelProductName.Text = "St. Martin de Porres Catholic School"
         Me.LabelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'LabelVersion
+        '
+        Me.LabelVersion.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.LabelVersion.Location = New System.Drawing.Point(328, 31)
+        Me.LabelVersion.Margin = New System.Windows.Forms.Padding(6, 0, 3, 0)
+        Me.LabelVersion.MaximumSize = New System.Drawing.Size(0, 17)
+        Me.LabelVersion.Name = "LabelVersion"
+        Me.LabelVersion.Size = New System.Drawing.Size(494, 17)
+        Me.LabelVersion.TabIndex = 0
+        Me.LabelVersion.Text = "Paombong, Bulacan"
+        Me.LabelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TextBoxDescription
         '
         Me.TextBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill
@@ -110,18 +122,6 @@ Partial Class AboutBox1
         Me.OKButton.Size = New System.Drawing.Size(75, 22)
         Me.OKButton.TabIndex = 0
         Me.OKButton.Text = "&OK"
-        '
-        'LabelVersion
-        '
-        Me.LabelVersion.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LabelVersion.Location = New System.Drawing.Point(328, 31)
-        Me.LabelVersion.Margin = New System.Windows.Forms.Padding(6, 0, 3, 0)
-        Me.LabelVersion.MaximumSize = New System.Drawing.Size(0, 17)
-        Me.LabelVersion.Name = "LabelVersion"
-        Me.LabelVersion.Size = New System.Drawing.Size(494, 17)
-        Me.LabelVersion.TabIndex = 0
-        Me.LabelVersion.Text = "Paombong, Bulacan"
-        Me.LabelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'AboutBox1
         '
