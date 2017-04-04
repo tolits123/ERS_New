@@ -3,7 +3,8 @@
     Public grade2 As Integer = 2000
     Public t As Integer
     Private Sub AddPayment_A_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-       
+
+
 
         'Dim tuition As Integer
         'tuition = t / 3
