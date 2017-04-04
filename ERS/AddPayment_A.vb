@@ -240,6 +240,7 @@
         Dim s9 As Integer = p9.Text
         total = il + pat + s1 + s2 + s3 + s4 + s5 + s6 + s7 + s8 + s9
 
+        'comment
         totalBooks.Text = total
     End Sub
 End Class
