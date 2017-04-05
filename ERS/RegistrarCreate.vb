@@ -1,13 +1,36 @@
 ﻿Imports MySql.Data.MySqlClient
 Imports System.Text.RegularExpressions
+Imports System.IO
+Imports System.Drawing.Imaging
 Public Class RegistrarCreate
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         AdminPanel.Show()
         Me.Close()
     End Sub
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+        Dim encodingtypestring As String = String.Empty
+        Try
+            If PictureBox1.ImageLocation.ToLower.EndsWith(".jpg") Then
+                encodeType = ImageFormat.Jpeg
+                encodingtypestring = "data:image/jpeg:base64,"
+            ElseIf PictureBox1.ImageLocation.ToLower.EndsWith(".png") Then
+                encodeType = ImageFormat.Png
+                encodingtypestring = "data:image/png:base64,"
+            End If
+        Catch
+        End Try
+        decoding = encodingtypestring
+        pl.Text = encodingtypestring & imagetobase64(PictureBox1.Image, encodeType)
         registrarCreate1()
     End Sub
+    Public Function imagetobase64(ByVal image As Image, ByVal format As ImageFormat) As String
+        Using ms As New MemoryStream()
+            image.Save(ms, format)
+            Dim imageByte As Byte() = ms.ToArray()
+            Dim base64String As String = Convert.ToBase64String(imageByte)
+            Return base64String
+        End Using
+    End Function
     Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         AdminPanel.Show()
         Me.Close()

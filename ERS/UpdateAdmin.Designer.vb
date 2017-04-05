@@ -52,8 +52,8 @@ Partial Class UpdateAdmin
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.status)
         Me.GroupBox2.Controls.Add(Me.PictureBox1)
+        Me.GroupBox2.Controls.Add(Me.status)
         Me.GroupBox2.Controls.Add(Me.pl)
         Me.GroupBox2.Controls.Add(Me.UpdateAdmin_btn)
         Me.GroupBox2.Controls.Add(Me.cno)
@@ -71,7 +71,7 @@ Partial Class UpdateAdmin
         Me.GroupBox2.Controls.Add(Me.Label2)
         Me.GroupBox2.Controls.Add(Me.Label8)
         Me.GroupBox2.Enabled = False
-        Me.GroupBox2.Location = New System.Drawing.Point(16, 103)
+        Me.GroupBox2.Location = New System.Drawing.Point(12, 103)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(415, 247)
         Me.GroupBox2.TabIndex = 14
@@ -80,17 +80,18 @@ Partial Class UpdateAdmin
         '
         'status
         '
+        Me.status.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.status.FormattingEnabled = True
-        Me.status.Location = New System.Drawing.Point(291, 135)
+        Me.status.Items.AddRange(New Object() {"Active"})
+        Me.status.Location = New System.Drawing.Point(291, 119)
         Me.status.Name = "status"
         Me.status.Size = New System.Drawing.Size(103, 21)
         Me.status.TabIndex = 13
-        Me.status.Text = "Active"
         '
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Location = New System.Drawing.Point(291, 32)
+        Me.PictureBox1.Location = New System.Drawing.Point(294, 32)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(103, 81)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -100,9 +101,10 @@ Partial Class UpdateAdmin
         'pl
         '
         Me.pl.Enabled = False
-        Me.pl.Location = New System.Drawing.Point(294, 65)
+        Me.pl.Location = New System.Drawing.Point(294, 50)
+        Me.pl.Multiline = True
         Me.pl.Name = "pl"
-        Me.pl.Size = New System.Drawing.Size(100, 20)
+        Me.pl.Size = New System.Drawing.Size(100, 28)
         Me.pl.TabIndex = 8
         '
         'UpdateAdmin_btn

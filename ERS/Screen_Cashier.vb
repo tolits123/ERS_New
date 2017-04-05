@@ -51,4 +51,20 @@
         My.Forms.DeletePayment.DeletePayment_btn.Visible = False
         My.Forms.DeletePayment.Text = "View Payment"
     End Sub
+
+    Private Sub SearchStudentToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SearchStudentToolStripMenuItem.Click
+        ViewStud_C.TopLevel = False
+        CashierPanelPictureBox.Controls.Add(ViewStud_C)
+        CashierPanel.Hide()
+        ViewStud_C.Show()
+    End Sub
+
+    Private Sub SearchPaymentToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SearchPaymentToolStripMenuItem.Click
+        DeletePayment.TopLevel = False
+        CashierPanelPictureBox.Controls.Add(DeletePayment)
+        CashierPanel.Hide()
+        DeletePayment.Show()
+        My.Forms.DeletePayment.DeletePayment_btn.Visible = False
+        My.Forms.DeletePayment.Text = "View Payment"
+    End Sub
 End Class

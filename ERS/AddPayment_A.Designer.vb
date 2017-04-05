@@ -54,6 +54,7 @@ Partial Class AddPayment_A
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.p9 = New System.Windows.Forms.TextBox()
         Me.p8 = New System.Windows.Forms.TextBox()
+        Me.label = New System.Windows.Forms.Label()
         Me.p7 = New System.Windows.Forms.TextBox()
         Me.p6 = New System.Windows.Forms.TextBox()
         Me.p5 = New System.Windows.Forms.TextBox()
@@ -75,12 +76,14 @@ Partial Class AddPayment_A
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.label = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.miscellaneous_fee_grp.SuspendLayout()
         Me.Payment_grp.SuspendLayout()
         Me.EnterPartial_grp.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -398,6 +401,7 @@ Partial Class AddPayment_A
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Enabled = False
         Me.CheckBox1.Location = New System.Drawing.Point(209, 17)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(71, 17)
@@ -407,6 +411,7 @@ Partial Class AddPayment_A
         '
         'p9
         '
+        Me.p9.Enabled = False
         Me.p9.Location = New System.Drawing.Point(123, 299)
         Me.p9.Name = "p9"
         Me.p9.Size = New System.Drawing.Size(100, 20)
@@ -414,13 +419,25 @@ Partial Class AddPayment_A
         '
         'p8
         '
+        Me.p8.Enabled = False
         Me.p8.Location = New System.Drawing.Point(123, 272)
         Me.p8.Name = "p8"
         Me.p8.Size = New System.Drawing.Size(100, 20)
         Me.p8.TabIndex = 20
         '
+        'label
+        '
+        Me.label.AutoSize = True
+        Me.label.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label.Location = New System.Drawing.Point(18, 326)
+        Me.label.Name = "label"
+        Me.label.Size = New System.Drawing.Size(48, 16)
+        Me.label.TabIndex = 0
+        Me.label.Text = "Total:"
+        '
         'p7
         '
+        Me.p7.Enabled = False
         Me.p7.Location = New System.Drawing.Point(123, 247)
         Me.p7.Name = "p7"
         Me.p7.Size = New System.Drawing.Size(100, 20)
@@ -428,6 +445,7 @@ Partial Class AddPayment_A
         '
         'p6
         '
+        Me.p6.Enabled = False
         Me.p6.Location = New System.Drawing.Point(123, 221)
         Me.p6.Name = "p6"
         Me.p6.Size = New System.Drawing.Size(100, 20)
@@ -435,6 +453,7 @@ Partial Class AddPayment_A
         '
         'p5
         '
+        Me.p5.Enabled = False
         Me.p5.Location = New System.Drawing.Point(123, 195)
         Me.p5.Name = "p5"
         Me.p5.Size = New System.Drawing.Size(100, 20)
@@ -442,6 +461,7 @@ Partial Class AddPayment_A
         '
         'p4
         '
+        Me.p4.Enabled = False
         Me.p4.Location = New System.Drawing.Point(123, 169)
         Me.p4.Name = "p4"
         Me.p4.Size = New System.Drawing.Size(100, 20)
@@ -449,6 +469,7 @@ Partial Class AddPayment_A
         '
         'p3
         '
+        Me.p3.Enabled = False
         Me.p3.Location = New System.Drawing.Point(123, 143)
         Me.p3.Name = "p3"
         Me.p3.Size = New System.Drawing.Size(100, 20)
@@ -456,6 +477,7 @@ Partial Class AddPayment_A
         '
         'p2
         '
+        Me.p2.Enabled = False
         Me.p2.Location = New System.Drawing.Point(123, 117)
         Me.p2.Name = "p2"
         Me.p2.Size = New System.Drawing.Size(100, 20)
@@ -463,6 +485,7 @@ Partial Class AddPayment_A
         '
         'p1
         '
+        Me.p1.Enabled = False
         Me.p1.Location = New System.Drawing.Point(123, 91)
         Me.p1.Name = "p1"
         Me.p1.Size = New System.Drawing.Size(100, 20)
@@ -470,6 +493,7 @@ Partial Class AddPayment_A
         '
         'Patch
         '
+        Me.Patch.Enabled = False
         Me.Patch.Location = New System.Drawing.Point(123, 65)
         Me.Patch.Name = "Patch"
         Me.Patch.Size = New System.Drawing.Size(100, 20)
@@ -478,6 +502,7 @@ Partial Class AddPayment_A
         '
         'IdLace
         '
+        Me.IdLace.Enabled = False
         Me.IdLace.Location = New System.Drawing.Point(123, 39)
         Me.IdLace.Name = "IdLace"
         Me.IdLace.Size = New System.Drawing.Size(100, 20)
@@ -489,81 +514,72 @@ Partial Class AddPayment_A
         Me.Subj9.AutoSize = True
         Me.Subj9.Location = New System.Drawing.Point(18, 302)
         Me.Subj9.Name = "Subj9"
-        Me.Subj9.Size = New System.Drawing.Size(49, 13)
+        Me.Subj9.Size = New System.Drawing.Size(0, 13)
         Me.Subj9.TabIndex = 10
-        Me.Subj9.Text = "Subject2"
         '
         'Subj8
         '
         Me.Subj8.AutoSize = True
         Me.Subj8.Location = New System.Drawing.Point(18, 275)
         Me.Subj8.Name = "Subj8"
-        Me.Subj8.Size = New System.Drawing.Size(49, 13)
+        Me.Subj8.Size = New System.Drawing.Size(0, 13)
         Me.Subj8.TabIndex = 9
-        Me.Subj8.Text = "Subject1"
         '
         'Subj7
         '
         Me.Subj7.AutoSize = True
         Me.Subj7.Location = New System.Drawing.Point(17, 250)
         Me.Subj7.Name = "Subj7"
-        Me.Subj7.Size = New System.Drawing.Size(55, 13)
+        Me.Subj7.Size = New System.Drawing.Size(0, 13)
         Me.Subj7.TabIndex = 8
-        Me.Subj7.Text = "Subject10"
         '
         'Subj6
         '
         Me.Subj6.AutoSize = True
         Me.Subj6.Location = New System.Drawing.Point(18, 224)
         Me.Subj6.Name = "Subj6"
-        Me.Subj6.Size = New System.Drawing.Size(49, 13)
+        Me.Subj6.Size = New System.Drawing.Size(0, 13)
         Me.Subj6.TabIndex = 7
-        Me.Subj6.Text = "Subject9"
         '
         'Subj5
         '
         Me.Subj5.AutoSize = True
         Me.Subj5.Location = New System.Drawing.Point(17, 198)
         Me.Subj5.Name = "Subj5"
-        Me.Subj5.Size = New System.Drawing.Size(49, 13)
+        Me.Subj5.Size = New System.Drawing.Size(0, 13)
         Me.Subj5.TabIndex = 6
-        Me.Subj5.Text = "Subject8"
         '
         'Subj4
         '
         Me.Subj4.AutoSize = True
         Me.Subj4.Location = New System.Drawing.Point(18, 172)
         Me.Subj4.Name = "Subj4"
-        Me.Subj4.Size = New System.Drawing.Size(49, 13)
+        Me.Subj4.Size = New System.Drawing.Size(0, 13)
         Me.Subj4.TabIndex = 5
-        Me.Subj4.Text = "Subject6"
         '
         'Subj3
         '
         Me.Subj3.AutoSize = True
         Me.Subj3.Location = New System.Drawing.Point(18, 146)
         Me.Subj3.Name = "Subj3"
-        Me.Subj3.Size = New System.Drawing.Size(49, 13)
+        Me.Subj3.Size = New System.Drawing.Size(0, 13)
         Me.Subj3.TabIndex = 4
-        Me.Subj3.Text = "Subject5"
         '
         'Subj2
         '
         Me.Subj2.AutoSize = True
         Me.Subj2.Location = New System.Drawing.Point(17, 120)
         Me.Subj2.Name = "Subj2"
-        Me.Subj2.Size = New System.Drawing.Size(34, 13)
+        Me.Subj2.Size = New System.Drawing.Size(0, 13)
         Me.Subj2.TabIndex = 3
-        Me.Subj2.Text = "Subj2"
         '
         'Subj1
         '
         Me.Subj1.AutoSize = True
         Me.Subj1.Location = New System.Drawing.Point(18, 94)
         Me.Subj1.Name = "Subj1"
-        Me.Subj1.Size = New System.Drawing.Size(49, 13)
+        Me.Subj1.Size = New System.Drawing.Size(0, 13)
         Me.Subj1.TabIndex = 2
-        Me.Subj1.Text = "Subject3"
         '
         'Label6
         '
@@ -596,15 +612,25 @@ Partial Class AddPayment_A
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Student Information"
         '
-        'label
+        'GroupBox3
         '
-        Me.label.AutoSize = True
-        Me.label.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label.Location = New System.Drawing.Point(18, 326)
-        Me.label.Name = "label"
-        Me.label.Size = New System.Drawing.Size(48, 16)
-        Me.label.TabIndex = 0
-        Me.label.Text = "Total:"
+        Me.GroupBox3.Controls.Add(Me.CheckBox2)
+        Me.GroupBox3.Location = New System.Drawing.Point(12, 187)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(286, 348)
+        Me.GroupBox3.TabIndex = 7
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Books and Items"
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(209, 17)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(71, 17)
+        Me.CheckBox2.TabIndex = 22
+        Me.CheckBox2.Text = "Edit Price"
+        Me.CheckBox2.UseVisualStyleBackColor = True
         '
         'AddPayment_A
         '
@@ -620,6 +646,7 @@ Partial Class AddPayment_A
         Me.Controls.Add(Me.SearchAddpayemt_btn)
         Me.Controls.Add(Me.sn)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.GroupBox3)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Name = "AddPayment_A"
         Me.Text = "Add Student Payment"
@@ -633,6 +660,8 @@ Partial Class AddPayment_A
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -691,4 +720,6 @@ Partial Class AddPayment_A
     Friend WithEvents Label20 As System.Windows.Forms.Label
     Friend WithEvents totalBooks As System.Windows.Forms.Label
     Friend WithEvents label As System.Windows.Forms.Label
+    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
+    Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
 End Class

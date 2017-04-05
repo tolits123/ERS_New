@@ -177,9 +177,9 @@ Partial Class RegistrarCreate
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Location = New System.Drawing.Point(14, 76)
+        Me.PictureBox1.Location = New System.Drawing.Point(4, 68)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(118, 77)
+        Me.PictureBox1.Size = New System.Drawing.Size(131, 89)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 36
         Me.PictureBox1.TabStop = False
@@ -194,9 +194,10 @@ Partial Class RegistrarCreate
         'pl
         '
         Me.pl.Enabled = False
-        Me.pl.Location = New System.Drawing.Point(33, 109)
+        Me.pl.Location = New System.Drawing.Point(33, 95)
+        Me.pl.Multiline = True
         Me.pl.Name = "pl"
-        Me.pl.Size = New System.Drawing.Size(83, 20)
+        Me.pl.Size = New System.Drawing.Size(83, 46)
         Me.pl.TabIndex = 35
         '
         'Button5

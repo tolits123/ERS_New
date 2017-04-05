@@ -31,16 +31,16 @@ Partial Class Webcam
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Location = New System.Drawing.Point(30, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(2, 1)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(239, 178)
+        Me.PictureBox1.Size = New System.Drawing.Size(291, 198)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
         'capture_btn
         '
-        Me.capture_btn.Location = New System.Drawing.Point(103, 208)
+        Me.capture_btn.Location = New System.Drawing.Point(110, 205)
         Me.capture_btn.Name = "capture_btn"
         Me.capture_btn.Size = New System.Drawing.Size(75, 23)
         Me.capture_btn.TabIndex = 2
@@ -51,7 +51,7 @@ Partial Class Webcam
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(306, 261)
+        Me.ClientSize = New System.Drawing.Size(295, 230)
         Me.Controls.Add(Me.capture_btn)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D

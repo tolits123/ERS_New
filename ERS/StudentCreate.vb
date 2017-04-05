@@ -1,5 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
-
+Imports System.IO
+Imports System.Drawing.Imaging
 Public Class StudentCreate
 
 
@@ -17,17 +18,14 @@ Public Class StudentCreate
             PictureBox1.Image = PictureBox1.ErrorImage
         End Try
     End Sub
-
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
-
-
-
-
-
-
-
-    End Sub
+    Public Function imagetobase64(ByVal image As Image, ByVal format As ImageFormat) As String
+        Using ms As New MemoryStream()
+            image.Save(ms, format)
+            Dim imageByte As Byte() = ms.ToArray()
+            Dim base64String As String = Convert.ToBase64String(imageByte)
+            Return base64String
+        End Using
+    End Function
     Public Shared Function ag(ByVal DOfB As Object) As String
         If (Month(Date.Today) * 100) + Date.Today.Day >= (Month(DOfB) * 100) + DOfB.Day Then
             Return DateDiff(DateInterval.Year, DOfB, Date.Today)
@@ -39,6 +37,22 @@ Public Class StudentCreate
         If (cont.Text = "" Or pl.Text = "" Or age.Text = "" Or sn.Text = "" Or gen.SelectedItem = "" Or ln.Text = "" Or fn.Text = "" Or mn.Text = "" Or add.Text = "" Or pi.Text = "" Or rel.Text = "" Or citi.Text = "" Or sy.Text = "" Or gl.Text = "" Or mon.Text = "" Or mono.Text = "" Or fon.Text = "" Or fono.Text = "" Or gdn.Text = "" Or rl.Text = "") Then
             MsgBox("Please fill the empty fields!")
         Else
+            Dim encodingtypestring As String = String.Empty
+            Try
+                If PictureBox1.ImageLocation.ToLower.EndsWith(".jpg") Then
+                    encodeType = ImageFormat.Jpeg
+                    encodingtypestring = "data:image/jpeg:base64,"
+                ElseIf PictureBox1.ImageLocation.ToLower.EndsWith(".png") Then
+                    encodeType = ImageFormat.Png
+                    encodingtypestring = "data:image/png:base64,"
+                End If
+            Catch
+            End Try
+            decoding = encodingtypestring
+            pl.Text = encodingtypestring & imagetobase64(PictureBox1.Image, encodeType)
+
+
+
             Dim objConn As New MySqlConnection
             Dim ins As New MySqlCommand
             Dim cn = "server= '" & server & "'; userid= '" & user & "'; port= '" & port & "';password= '" & password & "';database='" & database & "'"

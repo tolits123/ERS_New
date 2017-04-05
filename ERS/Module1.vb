@@ -1,11 +1,15 @@
 ﻿Imports MySql.Data.MySqlClient
 Imports System.Text.RegularExpressions
+Imports System.IO
+Imports System.Drawing.Imaging
 Module Module1
     Public cn1 As New MySqlConnection
     Public cn As New MySqlConnection
     Public r As MySqlDataReader
     Public ins As New MySqlCommand
     Public objConn As New MySqlConnection
+    Public encodeType As ImageFormat = ImageFormat.Jpeg
+    Public decoding As String = String.Empty
     'Public server As String = "127.0.0.1" 'papalitan to ng ip address ng server pag need na siya i connect sa LAN
     'Public port As String = "3306" 'gagawing 3306 to pag need na i connect sa LAN, or kung anong port yung na set natin
     'Public user As String = "ers_admin" 'for now, root yung user, pero, magdadagdag tayo ng new username pag LAN
@@ -1535,7 +1539,7 @@ Module Module1
                 My.Forms.UpdateAdmin.cno.Text = r("ContactNumber").ToString()
                 My.Forms.UpdateAdmin.eadd.Text = r("Email_Account").ToString()
                 My.Forms.UpdateAdmin.pl.Text = r("Photo").ToString()
-                My.Forms.UpdateAdmin.PictureBox1.Image = Image.FromFile(My.Forms.UpdateAdmin.pl.Text)
+                'My.Forms.UpdateAdmin.PictureBox1.Image = Image.FromFile(My.Forms.UpdateAdmin.pl.Text)
                 My.Forms.UpdateAdmin.GroupBox2.Enabled = True
                 My.Forms.UpdateAdmin.ValidateAccountUpdate_btn.Enabled = False
                 My.Forms.UpdateAdmin.en.Enabled = False
@@ -2375,6 +2379,44 @@ Module Module1
             Else
                 MsgBox("Student ID not Found!")
                 My.Forms.ViewStudent.sn.Focus()
+                conn.Close()
+            End If
+        Catch ex As Exception
+            MsgBox(ex.StackTrace) '<-- tanggalin naten yung error.
+        End Try
+        conn.Close()
+    End Sub
+
+
+    Public Sub SearchStudent_C_ViewStudent_btn()
+        'not implemented
+        Dim conn As New MySqlConnection ' <---
+        ' Me.sn.Text = My.Forms.AdminPanel.TextBox1.Text
+        'Me.FormBorderStyle = 0
+        Try
+            'insert() 'tatanggalin natin to, ang error kasi is yung pag connect sa db. gawa tayo ng sarili.
+            conn.ConnectionString = "server= '" & server & "'; userid= '" & user & "'; port= '" & port & "';password= '" & password & "';database='" & database & "'"
+            Dim r As MySqlDataReader
+            Dim reg As String = "SELECT * FROM student_info WHERE (Student_ID_No ='" & My.Forms.ViewStud_C.sn.Text & "')"
+            conn.Open() 'instead na cn1.Open, babaguhin natin. ilalagay natin yung conn na ni declare natin sa taas.
+            Dim cmd As MySqlCommand = New MySqlCommand(reg, conn) '<--- dapat gagana na to. haha.
+            r = cmd.ExecuteReader()
+            If r.Read Then
+                My.Forms.ViewStud_C.sn.Text = r("Student_ID_No").ToString()
+                My.Forms.ViewStud_C.nam.Text = r("LastName").ToString() & ", " & r("GivenName").ToString() & " " & r("MiddleName").ToString() & "."
+                My.Forms.ViewStud_C.add.Text = r("Address").ToString()
+                My.Forms.ViewStud_C.bd.Text = r("Birthday").ToString()
+                My.Forms.ViewStud_C.gl.Text = r("GradeLevel").ToString()
+                My.Forms.ViewStud_C.con.Text = r("Contact").ToString()
+                My.Forms.ViewStud_C.sy.Text = r("SchoolYear").ToString()
+                My.Forms.ViewStud_C.pl.Text = r("Photo").ToString()
+                My.Forms.ViewStud_C.ag.Text = r("Age").ToString()
+                My.Forms.ViewStud_C.pl.Text = r("Photo").ToString()
+                My.Forms.ViewStud_C.PictureBox2.Image = Image.FromFile(My.Forms.ViewStud_C.pl.Text)
+                conn.Close() 'papalitan natin lahat ng cn1 ng conn
+            Else
+                MsgBox("Student ID not Found!")
+                My.Forms.ViewStud_C.sn.Focus()
                 conn.Close()
             End If
         Catch ex As Exception

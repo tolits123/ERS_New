@@ -216,7 +216,6 @@ Partial Class UpdateStudent_R
         Me.sn.Name = "sn"
         Me.sn.Size = New System.Drawing.Size(176, 20)
         Me.sn.TabIndex = 27
-        Me.sn.Text = "2012-028"
         '
         'UpdateButton_a_Student
         '

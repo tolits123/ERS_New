@@ -41,7 +41,6 @@ Partial Class AdminCreate
         Me.Button5 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.en = New System.Windows.Forms.MaskedTextBox()
-        Me.pl = New System.Windows.Forms.TextBox()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.ln = New System.Windows.Forms.TextBox()
         Me.fn = New System.Windows.Forms.TextBox()
@@ -51,6 +50,7 @@ Partial Class AdminCreate
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.statusTxtBoxAdmin = New System.Windows.Forms.TextBox()
         Me.loginAttempt = New System.Windows.Forms.TextBox()
+        Me.pl = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -79,7 +79,7 @@ Partial Class AdminCreate
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(5, 183)
+        Me.Button4.Location = New System.Drawing.Point(7, 182)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(135, 23)
         Me.Button4.TabIndex = 17
@@ -88,7 +88,7 @@ Partial Class AdminCreate
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(5, 161)
+        Me.Button3.Location = New System.Drawing.Point(6, 160)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(135, 23)
         Me.Button3.TabIndex = 16
@@ -97,7 +97,7 @@ Partial Class AdminCreate
         '
         'rtp
         '
-        Me.rtp.Location = New System.Drawing.Point(603, 252)
+        Me.rtp.Location = New System.Drawing.Point(607, 244)
         Me.rtp.Name = "rtp"
         Me.rtp.Size = New System.Drawing.Size(227, 20)
         Me.rtp.TabIndex = 13
@@ -118,7 +118,7 @@ Partial Class AdminCreate
         '
         'eadd
         '
-        Me.eadd.Location = New System.Drawing.Point(256, 187)
+        Me.eadd.Location = New System.Drawing.Point(256, 183)
         Me.eadd.Name = "eadd"
         Me.eadd.Size = New System.Drawing.Size(229, 20)
         Me.eadd.TabIndex = 8
@@ -128,21 +128,21 @@ Partial Class AdminCreate
         Me.sq2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.sq2.FormattingEnabled = True
         Me.sq2.Items.AddRange(New Object() {"sq2"})
-        Me.sq2.Location = New System.Drawing.Point(180, 266)
+        Me.sq2.Location = New System.Drawing.Point(180, 265)
         Me.sq2.Name = "sq2"
         Me.sq2.Size = New System.Drawing.Size(262, 21)
         Me.sq2.TabIndex = 14
         '
         'cno
         '
-        Me.cno.Location = New System.Drawing.Point(623, 162)
+        Me.cno.Location = New System.Drawing.Point(623, 153)
         Me.cno.Name = "cno"
         Me.cno.Size = New System.Drawing.Size(207, 20)
         Me.cno.TabIndex = 7
         '
         'ans1
         '
-        Me.ans1.Location = New System.Drawing.Point(180, 240)
+        Me.ans1.Location = New System.Drawing.Point(180, 238)
         Me.ans1.Name = "ans1"
         Me.ans1.Size = New System.Drawing.Size(235, 20)
         Me.ans1.TabIndex = 12
@@ -151,7 +151,7 @@ Partial Class AdminCreate
         '
         Me.bd.CustomFormat = "MM/dd/yyyy"
         Me.bd.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.bd.Location = New System.Drawing.Point(240, 159)
+        Me.bd.Location = New System.Drawing.Point(240, 154)
         Me.bd.Name = "bd"
         Me.bd.Size = New System.Drawing.Size(260, 20)
         Me.bd.TabIndex = 6
@@ -161,7 +161,7 @@ Partial Class AdminCreate
         Me.sq1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.sq1.FormattingEnabled = True
         Me.sq1.Items.AddRange(New Object() {"sq1"})
-        Me.sq1.Location = New System.Drawing.Point(180, 213)
+        Me.sq1.Location = New System.Drawing.Point(180, 210)
         Me.sq1.Name = "sq1"
         Me.sq1.Size = New System.Drawing.Size(262, 21)
         Me.sq1.TabIndex = 10
@@ -171,7 +171,7 @@ Partial Class AdminCreate
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Male", "Female"})
-        Me.ComboBox1.Location = New System.Drawing.Point(696, 131)
+        Me.ComboBox1.Location = New System.Drawing.Point(696, 123)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(134, 21)
         Me.ComboBox1.TabIndex = 5
@@ -188,7 +188,7 @@ Partial Class AdminCreate
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Location = New System.Drawing.Point(14, 78)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 68)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(125, 86)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -197,18 +197,10 @@ Partial Class AdminCreate
         '
         'en
         '
-        Me.en.Location = New System.Drawing.Point(623, 188)
+        Me.en.Location = New System.Drawing.Point(625, 183)
         Me.en.Name = "en"
         Me.en.Size = New System.Drawing.Size(207, 20)
         Me.en.TabIndex = 9
-        '
-        'pl
-        '
-        Me.pl.Enabled = False
-        Me.pl.Location = New System.Drawing.Point(32, 115)
-        Me.pl.Name = "pl"
-        Me.pl.Size = New System.Drawing.Size(83, 20)
-        Me.pl.TabIndex = 35
         '
         'Button6
         '
@@ -221,16 +213,16 @@ Partial Class AdminCreate
         '
         'ln
         '
-        Me.ln.Location = New System.Drawing.Point(145, 99)
+        Me.ln.Location = New System.Drawing.Point(144, 94)
         Me.ln.Name = "ln"
-        Me.ln.Size = New System.Drawing.Size(206, 20)
+        Me.ln.Size = New System.Drawing.Size(210, 20)
         Me.ln.TabIndex = 1
         '
         'fn
         '
-        Me.fn.Location = New System.Drawing.Point(382, 99)
+        Me.fn.Location = New System.Drawing.Point(382, 94)
         Me.fn.Name = "fn"
-        Me.fn.Size = New System.Drawing.Size(205, 20)
+        Me.fn.Size = New System.Drawing.Size(213, 20)
         Me.fn.TabIndex = 2
         '
         'OpenFileDialog2
@@ -239,24 +231,25 @@ Partial Class AdminCreate
         '
         'add
         '
-        Me.add.Location = New System.Drawing.Point(256, 133)
+        Me.add.Location = New System.Drawing.Point(259, 122)
         Me.add.Name = "add"
         Me.add.Size = New System.Drawing.Size(350, 20)
         Me.add.TabIndex = 4
         '
         'mn
         '
-        Me.mn.Location = New System.Drawing.Point(614, 99)
+        Me.mn.Location = New System.Drawing.Point(614, 95)
         Me.mn.Name = "mn"
         Me.mn.Size = New System.Drawing.Size(216, 20)
         Me.mn.TabIndex = 3
         '
         'PictureBox2
         '
+        Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(0, 12)
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(842, 318)
+        Me.PictureBox2.Size = New System.Drawing.Size(842, 330)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 34
         Me.PictureBox2.TabStop = False
@@ -264,7 +257,7 @@ Partial Class AdminCreate
         'statusTxtBoxAdmin
         '
         Me.statusTxtBoxAdmin.Enabled = False
-        Me.statusTxtBoxAdmin.Location = New System.Drawing.Point(453, 296)
+        Me.statusTxtBoxAdmin.Location = New System.Drawing.Point(29, 80)
         Me.statusTxtBoxAdmin.Name = "statusTxtBoxAdmin"
         Me.statusTxtBoxAdmin.Size = New System.Drawing.Size(47, 20)
         Me.statusTxtBoxAdmin.TabIndex = 37
@@ -273,18 +266,28 @@ Partial Class AdminCreate
         '
         'loginAttempt
         '
-        Me.loginAttempt.Location = New System.Drawing.Point(515, 296)
+        Me.loginAttempt.Location = New System.Drawing.Point(82, 99)
         Me.loginAttempt.Name = "loginAttempt"
         Me.loginAttempt.Size = New System.Drawing.Size(29, 20)
         Me.loginAttempt.TabIndex = 38
         Me.loginAttempt.Text = "0"
         Me.loginAttempt.Visible = False
         '
+        'pl
+        '
+        Me.pl.Location = New System.Drawing.Point(29, 111)
+        Me.pl.Multiline = True
+        Me.pl.Name = "pl"
+        Me.pl.Size = New System.Drawing.Size(70, 33)
+        Me.pl.TabIndex = 39
+        '
         'AdminCreate
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(842, 330)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.pl)
         Me.Controls.Add(Me.loginAttempt)
         Me.Controls.Add(Me.statusTxtBoxAdmin)
         Me.Controls.Add(Me.Button4)
@@ -300,9 +303,7 @@ Partial Class AdminCreate
         Me.Controls.Add(Me.sq1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.en)
-        Me.Controls.Add(Me.pl)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.ln)
         Me.Controls.Add(Me.fn)
@@ -338,7 +339,6 @@ Partial Class AdminCreate
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents en As System.Windows.Forms.MaskedTextBox
-    Friend WithEvents pl As System.Windows.Forms.TextBox
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents ln As System.Windows.Forms.TextBox
     Friend WithEvents fn As System.Windows.Forms.TextBox
@@ -348,4 +348,5 @@ Partial Class AdminCreate
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents statusTxtBoxAdmin As System.Windows.Forms.TextBox
     Friend WithEvents loginAttempt As System.Windows.Forms.TextBox
+    Friend WithEvents pl As System.Windows.Forms.TextBox
 End Class

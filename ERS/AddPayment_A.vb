@@ -1,6 +1,5 @@
 ﻿Public Class AddPayment_A
-    Public grade1 As Integer = 1000
-    Public grade2 As Integer = 2000
+   
     Public t As Integer
     Private Sub AddPayment_A_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
@@ -25,11 +24,11 @@
         total.Text = t
         If grade.Text = "Grade 1" Then
             t = total.Text
-            t = t + grade1 + totalB
+            t = t + totalB
             total1.Text = t
         ElseIf grade.Text = "Grade 2" Then
             t = total.Text
-            t = t + grade2 + totalB
+            t = t + totalB
             total1.Text = t
         End If
         EnterPartial_grp.Enabled = False
@@ -84,20 +83,29 @@
         Dim totalB As Integer = totalBooks.Text
         If grade.Text = "Grade 1" Then
             t = total.Text
-            t = t + grade1 + totalB
+            t = t + totalB
             total1.Text = t
         ElseIf grade.Text = "Grade 2" Then
             t = total.Text
-            t = t + grade2 + totalB
+            t = t + totalB
             total1.Text = t
         End If
     End Sub
 
     Private Sub SearchAddpayemt_btn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SearchAddpayemt_btn.Click
         Try
+            SearchAddPayment1_A()
             SearchAddPayment_A()
-        
+            If nameOS.Text = "--------" Then
+                nameOS.Text = "--------"
+                grade.Text = "--------"
+            Else
+                CheckBox1.Enabled = True
+            End If
 
+
+
+            'test()
 
 
 
@@ -124,6 +132,7 @@
             SearchAddpayemt_btn.Enabled = True
             sn.Text = ""
             prelim.Text = "-"
+            CheckBox1.Enabled = True
             midterm.Text = "-"
             total.Enabled = True
         ElseIf pp_rdbnt.Checked = True Then
@@ -141,6 +150,7 @@
             total.Text = ""
             sn.Text = ""
             prelim.Text = "-"
+            CheckBox1.Enabled = True
             midterm.Text = "-"
             total.Enabled = True
         End If
@@ -151,31 +161,34 @@
   End Sub
 
     Private Sub enterTuition_btn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles enterTuition_btn.Click
-        partialp.Text = ""
-        t = total.Text
-        total.Text = t
-        Dim totalB As Integer = totalBooks.Text
-        total1.Text = total.Text
-        fp_rdobnt.Enabled = True
-        pp_rdbnt.Enabled = True
-        total.Enabled = False
-        If grade.Text = "Grade 1" Then
+        If total.Text = "" Then
+            MsgBox("Please enter tuitionfee.")
+        Else
+            partialp.Text = ""
             t = total.Text
-            t = t + grade1 + totalB
-            total1.Text = t
-        ElseIf grade.Text = "Grade 2" Then
+            total.Text = t
+            Dim totalB As Integer = totalBooks.Text
+            total1.Text = total.Text
+            fp_rdobnt.Enabled = True
+            pp_rdbnt.Enabled = True
+            total.Enabled = False
+            If grade.Text = "Grade 1" Then
+                t = total.Text
+                t = t + totalB
+                total1.Text = t
+            ElseIf grade.Text = "Grade 2" Then
 
-            t = total.Text
-            t = t + grade2 + totalB
-            total1.Text = t
+                t = total.Text
+                t = t + totalB
+                total1.Text = t
+            End If
 
-
-        End If
+            End If
     End Sub
 
     Private Sub getSubj_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles getSubj.SelectedIndexChanged
         If getSubj.SelectedItem = "" Then
-            MsgBox("Please select Subject:")
+            MsgBox("Please select Grade:")
 
         ElseIf getSubj.SelectedItem = "Grade 1" Then
             Subj1.Text = "Mathematics 1"
@@ -227,19 +240,82 @@
     End Sub
     Private Sub subjandbooksComputation()
         Dim total As Integer
-        Dim il As Integer = IdLace.Text
-        Dim pat As Integer = Patch.Text
-        Dim s1 As Integer = p1.Text
-        Dim s2 As Integer = p2.Text
-        Dim s3 As Integer = p3.Text
-        Dim s4 As Integer = p4.Text
-        Dim s5 As Integer = p5.Text
-        Dim s6 As Integer = p6.Text
-        Dim s7 As Integer = p7.Text
-        Dim s8 As Integer = p8.Text
-        Dim s9 As Integer = p9.Text
-        total = il + pat + s1 + s2 + s3 + s4 + s5 + s6 + s7 + s8 + s9
+        Try
+            Dim il As Integer = IdLace.Text
+            Dim pat As Integer = Patch.Text
+            Dim s1 As Integer = p1.Text
+            Dim s2 As Integer = p2.Text
+            Dim s3 As Integer = p3.Text
+            Dim s4 As Integer = p4.Text
+            Dim s5 As Integer = p5.Text
+            Dim s6 As Integer = p6.Text
+            Dim s7 As Integer = p7.Text
+            Dim s8 As Integer = p8.Text
+            Dim s9 As Integer = p9.Text
+            total = il + pat + s1 + s2 + s3 + s4 + s5 + s6 + s7 + s8 + s9
+            totalBooks.Text = total
+        Catch
 
-        totalBooks.Text = total
+        End Try
+
+    End Sub
+
+    Private Sub CheckBox1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox1.CheckedChanged
+        If CheckBox1.Checked = True Then
+            p1.Enabled = True
+            p2.Enabled = True
+            p3.Enabled = True
+            p4.Enabled = True
+            p5.Enabled = True
+            p6.Enabled = True
+            p7.Enabled = True
+            p8.Enabled = True
+            p9.Enabled = True
+        ElseIf CheckBox1.Checked = False Then
+            p1.Enabled = False
+            p2.Enabled = False
+            p3.Enabled = False
+            p4.Enabled = False
+            p5.Enabled = False
+            p6.Enabled = False
+            p7.Enabled = False
+            p8.Enabled = False
+            p9.Enabled = False
+        End If
+    End Sub
+    Private Sub p1_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles p1.TextChanged
+        subjandbooksComputation()
+    End Sub
+
+    Private Sub p2_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles p2.TextChanged
+        subjandbooksComputation()
+    End Sub
+
+    Private Sub p3_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles p3.TextChanged
+        subjandbooksComputation()
+    End Sub
+
+    Private Sub p4_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles p4.TextChanged
+        subjandbooksComputation()
+    End Sub
+
+    Private Sub p5_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles p5.TextChanged
+        subjandbooksComputation()
+    End Sub
+
+    Private Sub p6_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles p6.TextChanged
+        subjandbooksComputation()
+    End Sub
+
+    Private Sub p7_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles p7.TextChanged
+        subjandbooksComputation()
+    End Sub
+
+    Private Sub p8_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles p8.TextChanged
+        subjandbooksComputation()
+    End Sub
+
+    Private Sub p9_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles p9.TextChanged
+        subjandbooksComputation()
     End Sub
 End Class

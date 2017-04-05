@@ -188,7 +188,7 @@ Partial Class AdminCreate_1
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Location = New System.Drawing.Point(9, 71)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 71)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(128, 84)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -205,7 +205,8 @@ Partial Class AdminCreate_1
         'pl
         '
         Me.pl.Enabled = False
-        Me.pl.Location = New System.Drawing.Point(32, 115)
+        Me.pl.Location = New System.Drawing.Point(32, 93)
+        Me.pl.Multiline = True
         Me.pl.Name = "pl"
         Me.pl.Size = New System.Drawing.Size(83, 20)
         Me.pl.TabIndex = 35
@@ -264,7 +265,7 @@ Partial Class AdminCreate_1
         '
         'statusTxtBoxAdmin1
         '
-        Me.statusTxtBoxAdmin1.Location = New System.Drawing.Point(446, 301)
+        Me.statusTxtBoxAdmin1.Location = New System.Drawing.Point(32, 93)
         Me.statusTxtBoxAdmin1.Name = "statusTxtBoxAdmin1"
         Me.statusTxtBoxAdmin1.Size = New System.Drawing.Size(44, 20)
         Me.statusTxtBoxAdmin1.TabIndex = 37
@@ -273,7 +274,7 @@ Partial Class AdminCreate_1
         '
         'loginAttempt
         '
-        Me.loginAttempt.Location = New System.Drawing.Point(496, 299)
+        Me.loginAttempt.Location = New System.Drawing.Point(82, 91)
         Me.loginAttempt.Name = "loginAttempt"
         Me.loginAttempt.Size = New System.Drawing.Size(43, 20)
         Me.loginAttempt.TabIndex = 38
@@ -285,6 +286,7 @@ Partial Class AdminCreate_1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(842, 331)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.loginAttempt)
         Me.Controls.Add(Me.statusTxtBoxAdmin1)
         Me.Controls.Add(Me.Button4)
@@ -300,7 +302,6 @@ Partial Class AdminCreate_1
         Me.Controls.Add(Me.sq1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.en)
         Me.Controls.Add(Me.pl)
         Me.Controls.Add(Me.Button6)

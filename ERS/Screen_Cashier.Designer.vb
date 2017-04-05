@@ -148,7 +148,7 @@ Partial Class Screen_Cashier
         'AboutUsToolStripMenuItem
         '
         Me.AboutUsToolStripMenuItem.Name = "AboutUsToolStripMenuItem"
-        Me.AboutUsToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
+        Me.AboutUsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AboutUsToolStripMenuItem.Text = "About Us"
         '
         'CashierPanelPictureBox

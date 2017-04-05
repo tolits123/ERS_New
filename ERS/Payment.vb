@@ -41,9 +41,8 @@ Module Payment
             Dim cmd As MySqlCommand = New MySqlCommand(reg, conn) '<--- dapat gagana na to. haha.
             r = cmd.ExecuteReader()
             If r.Read Then
-                MsgBox("Already added")
+                MsgBox("Student payment record already exists.")
             Else
-                MsgBox("Not yet added")
                 My.Forms.AddPayment_A.Proceed_btn.Enabled = True
                 conn.Close()
             End If
@@ -61,11 +60,10 @@ Module Payment
             objConn.ConnectionString = cn
             objConn.Open()
             ins.Connection = objConn
-            ins.CommandText = "INSERT INTO payment_tbl VALUES(@Student_ID_No,@Prelim , @Midterm, @Final)"
+            ins.CommandText = "INSERT INTO payment_tbl VALUES(@Student_ID_No,@Prelim , @Midterm)"
             ins.Parameters.AddWithValue("@Student_ID_No", My.Forms.AddPayment_A.sn.Text)
             ins.Parameters.AddWithValue("@Prelim", 0)
             ins.Parameters.AddWithValue("@Midterm", 0)
-            ins.Parameters.AddWithValue("@Final", 0)
             ins.ExecuteNonQuery()
             MsgBox("Payment Added!")
             objConn.Close()
@@ -222,5 +220,64 @@ Module Payment
         End Try
         '  Next
     End Sub
-    
+    Public Sub test()
+        Dim conn As New MySqlConnection ' <---
+        ' Me.sn.Text = My.Forms.AdminPanel.TextBox1.Text
+        'Me.FormBorderStyle = 0
+        Try
+            'insert() 'tatanggalin natin to, ang error kasi is yung pag connect sa db. gawa tayo ng sarili.
+            conn.ConnectionString = "server= '" & server & "'; userid= '" & user & "'; port= '" & port & "';password= '" & password & "';database='" & database & "'"
+            Dim r As MySqlDataReader
+            Dim reg As String = "SELECT * FROM items_tbl WHERE (gradelevel ='" & My.Forms.AddPayment_A.grade.Text & "')"
+            conn.Open() 'instead na cn1.Open, babaguhin natin. ilalagay natin yung conn na ni declare natin sa taas.
+            Dim cmd As MySqlCommand = New MySqlCommand(reg, conn) '<--- dapat gagana na to. haha.
+            r = cmd.ExecuteReader()
+            If r.Read Then
+                While r.Read
+                    My.Forms.AddPayment_A.Subj1.Text = r("subjectname").ToString()
+                    My.Forms.AddPayment_A.p1.Text = r("price").ToString()
+
+                    My.Forms.AddPayment_A.Subj2.Text = r("subjectname").ToString()
+                    My.Forms.AddPayment_A.p2.Text = r("price").ToString()
+
+
+
+
+
+                End While
+
+
+
+            Else
+                MsgBox("Not yet added")
+                My.Forms.AddPayment_A.Proceed_btn.Enabled = True
+                conn.Close()
+            End If
+        Catch ex As Exception
+            MsgBox(ex.StackTrace) '<-- tanggalin naten yung error.
+        End Try
+        conn.Close()
+    End Sub
+    Public Sub addBook()
+        Try
+            Dim objConn As New MySqlConnection
+            Dim ins As New MySqlCommand
+            Dim cn = "server= '" & server & "'; userid= '" & user & "'; port= '" & port & "';password= '" & password & "';database='" & database & "'"
+            objConn.ConnectionString = cn
+            objConn.Open()
+            ins.Connection = objConn
+            ins.CommandText = "INSERT INTO items_tbl VALUES(@subjectname, @price , @gradelevel)"
+            ins.Parameters.AddWithValue("@subjectname", My.Forms.addBookItem.subjectBookname.Text)
+            ins.Parameters.AddWithValue("@price", My.Forms.addBookItem.gradelvl.SelectedItem)
+            ins.Parameters.AddWithValue("@gradelevel", My.Forms.addBookItem.price.Text)
+            ins.ExecuteNonQuery()
+            My.Forms.addBookItem.gradelvl.SelectedItem = ""
+            My.Forms.addBookItem.price.Text = ""
+            My.Forms.addBookItem.subjectBookname.Text = ""
+            MsgBox("Book Added!")
+            objConn.Close()
+        Catch ex As Exception
+            MsgBox(ex)
+        End Try
+    End Sub
 End Module

@@ -22,29 +22,29 @@ Partial Class addBookItem
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.subjectBookname = New System.Windows.Forms.TextBox()
+        Me.price = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.gradelvl = New System.Windows.Forms.ComboBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'subjectBookname
         '
-        Me.TextBox1.Location = New System.Drawing.Point(169, 53)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(121, 20)
-        Me.TextBox1.TabIndex = 0
+        Me.subjectBookname.Location = New System.Drawing.Point(169, 53)
+        Me.subjectBookname.Name = "subjectBookname"
+        Me.subjectBookname.Size = New System.Drawing.Size(121, 20)
+        Me.subjectBookname.TabIndex = 0
         '
-        'TextBox3
+        'price
         '
-        Me.TextBox3.Location = New System.Drawing.Point(169, 155)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(121, 20)
-        Me.TextBox3.TabIndex = 2
+        Me.price.Location = New System.Drawing.Point(169, 155)
+        Me.price.Name = "price"
+        Me.price.Size = New System.Drawing.Size(121, 20)
+        Me.price.TabIndex = 2
         '
         'Label1
         '
@@ -73,14 +73,15 @@ Partial Class addBookItem
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Price"
         '
-        'ComboBox1
+        'gradelvl
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(169, 99)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 6
-        Me.ComboBox1.Text = "Grade 1"
+        Me.gradelvl.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.gradelvl.FormattingEnabled = True
+        Me.gradelvl.Items.AddRange(New Object() {"", "Grade 1", "Grade 2", "Grade 3"})
+        Me.gradelvl.Location = New System.Drawing.Point(169, 99)
+        Me.gradelvl.Name = "gradelvl"
+        Me.gradelvl.Size = New System.Drawing.Size(121, 21)
+        Me.gradelvl.TabIndex = 6
         '
         'Button1
         '
@@ -107,24 +108,24 @@ Partial Class addBookItem
         Me.ClientSize = New System.Drawing.Size(343, 281)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.gradelvl)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.price)
+        Me.Controls.Add(Me.subjectBookname)
         Me.Name = "addBookItem"
         Me.Text = "Add Book Item"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents subjectBookname As System.Windows.Forms.TextBox
+    Friend WithEvents price As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents gradelvl As System.Windows.Forms.ComboBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class

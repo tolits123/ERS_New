@@ -58,7 +58,6 @@ Partial Class StudentCreate
         Me.gen = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.sn = New System.Windows.Forms.MaskedTextBox()
         Me.pl = New System.Windows.Forms.TextBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.rl = New System.Windows.Forms.MaskedTextBox()
@@ -91,6 +90,7 @@ Partial Class StudentCreate
         Me.OpenFileDialog3 = New System.Windows.Forms.OpenFileDialog()
         Me.OpenFileDialog4 = New System.Windows.Forms.OpenFileDialog()
         Me.VScrollBar1 = New System.Windows.Forms.VScrollBar()
+        Me.sn = New System.Windows.Forms.TextBox()
         Me.pi.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -99,6 +99,7 @@ Partial Class StudentCreate
         '
         'pi
         '
+        Me.pi.Controls.Add(Me.sn)
         Me.pi.Controls.Add(Me.PictureBox1)
         Me.pi.Controls.Add(Me.frm137)
         Me.pi.Controls.Add(Me.gmr)
@@ -134,7 +135,6 @@ Partial Class StudentCreate
         Me.pi.Controls.Add(Me.gen)
         Me.pi.Controls.Add(Me.Label7)
         Me.pi.Controls.Add(Me.Label8)
-        Me.pi.Controls.Add(Me.sn)
         Me.pi.Controls.Add(Me.pl)
         Me.pi.Location = New System.Drawing.Point(20, 9)
         Me.pi.Margin = New System.Windows.Forms.Padding(5)
@@ -176,7 +176,7 @@ Partial Class StudentCreate
         Me.Button3.Margin = New System.Windows.Forms.Padding(5)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(172, 35)
-        Me.Button3.TabIndex = 194
+        Me.Button3.TabIndex = 12
         Me.Button3.Text = "UploadPhoto"
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -186,7 +186,7 @@ Partial Class StudentCreate
         Me.Button4.Margin = New System.Windows.Forms.Padding(5)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(172, 35)
-        Me.Button4.TabIndex = 193
+        Me.Button4.TabIndex = 13
         Me.Button4.Text = "TakePhoto"
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -246,7 +246,7 @@ Partial Class StudentCreate
         Me.CheckBox1.Margin = New System.Windows.Forms.Padding(5)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(89, 24)
-        Me.CheckBox1.TabIndex = 192
+        Me.CheckBox1.TabIndex = 11
         Me.CheckBox1.Text = "Scholar"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
@@ -259,7 +259,7 @@ Partial Class StudentCreate
         Me.gl.Margin = New System.Windows.Forms.Padding(5)
         Me.gl.Name = "gl"
         Me.gl.Size = New System.Drawing.Size(199, 28)
-        Me.gl.TabIndex = 165
+        Me.gl.TabIndex = 10
         '
         'Label13
         '
@@ -277,7 +277,7 @@ Partial Class StudentCreate
         Me.sy.Margin = New System.Windows.Forms.Padding(5)
         Me.sy.Name = "sy"
         Me.sy.Size = New System.Drawing.Size(282, 26)
-        Me.sy.TabIndex = 163
+        Me.sy.TabIndex = 9
         '
         'Label12
         '
@@ -295,7 +295,7 @@ Partial Class StudentCreate
         Me.citi.Margin = New System.Windows.Forms.Padding(5)
         Me.citi.Name = "citi"
         Me.citi.Size = New System.Drawing.Size(315, 26)
-        Me.citi.TabIndex = 144
+        Me.citi.TabIndex = 8
         '
         'Label10
         '
@@ -352,7 +352,7 @@ Partial Class StudentCreate
         Me.bd.Margin = New System.Windows.Forms.Padding(5)
         Me.bd.Name = "bd"
         Me.bd.Size = New System.Drawing.Size(157, 26)
-        Me.bd.TabIndex = 115
+        Me.bd.TabIndex = 7
         '
         'Label5
         '
@@ -370,7 +370,7 @@ Partial Class StudentCreate
         Me.add.Margin = New System.Windows.Forms.Padding(5)
         Me.add.Name = "add"
         Me.add.Size = New System.Drawing.Size(315, 26)
-        Me.add.TabIndex = 113
+        Me.add.TabIndex = 6
         '
         'Label9
         '
@@ -388,7 +388,7 @@ Partial Class StudentCreate
         Me.mn.Margin = New System.Windows.Forms.Padding(5)
         Me.mn.Name = "mn"
         Me.mn.Size = New System.Drawing.Size(212, 26)
-        Me.mn.TabIndex = 112
+        Me.mn.TabIndex = 5
         '
         'fn
         '
@@ -396,7 +396,7 @@ Partial Class StudentCreate
         Me.fn.Margin = New System.Windows.Forms.Padding(5)
         Me.fn.Name = "fn"
         Me.fn.Size = New System.Drawing.Size(212, 26)
-        Me.fn.TabIndex = 111
+        Me.fn.TabIndex = 4
         '
         'ln
         '
@@ -404,7 +404,7 @@ Partial Class StudentCreate
         Me.ln.Margin = New System.Windows.Forms.Padding(5)
         Me.ln.Name = "ln"
         Me.ln.Size = New System.Drawing.Size(281, 26)
-        Me.ln.TabIndex = 110
+        Me.ln.TabIndex = 3
         '
         'Label3
         '
@@ -445,7 +445,7 @@ Partial Class StudentCreate
         Me.gen.Margin = New System.Windows.Forms.Padding(5)
         Me.gen.Name = "gen"
         Me.gen.Size = New System.Drawing.Size(179, 28)
-        Me.gen.TabIndex = 87
+        Me.gen.TabIndex = 2
         '
         'Label7
         '
@@ -467,19 +467,12 @@ Partial Class StudentCreate
         Me.Label8.TabIndex = 11
         Me.Label8.Text = "StudentID:"
         '
-        'sn
-        '
-        Me.sn.Location = New System.Drawing.Point(335, 50)
-        Me.sn.Margin = New System.Windows.Forms.Padding(5)
-        Me.sn.Name = "sn"
-        Me.sn.Size = New System.Drawing.Size(281, 26)
-        Me.sn.TabIndex = 10
-        '
         'pl
         '
         Me.pl.Enabled = False
         Me.pl.Location = New System.Drawing.Point(46, 87)
         Me.pl.Margin = New System.Windows.Forms.Padding(5)
+        Me.pl.Multiline = True
         Me.pl.Name = "pl"
         Me.pl.Size = New System.Drawing.Size(136, 26)
         Me.pl.TabIndex = 8
@@ -494,7 +487,7 @@ Partial Class StudentCreate
         Me.rl.Margin = New System.Windows.Forms.Padding(5)
         Me.rl.Name = "rl"
         Me.rl.Size = New System.Drawing.Size(242, 26)
-        Me.rl.TabIndex = 191
+        Me.rl.TabIndex = 19
         '
         'gdn
         '
@@ -502,7 +495,7 @@ Partial Class StudentCreate
         Me.gdn.Margin = New System.Windows.Forms.Padding(5)
         Me.gdn.Name = "gdn"
         Me.gdn.Size = New System.Drawing.Size(301, 26)
-        Me.gdn.TabIndex = 190
+        Me.gdn.TabIndex = 18
         '
         'fono
         '
@@ -510,7 +503,7 @@ Partial Class StudentCreate
         Me.fono.Margin = New System.Windows.Forms.Padding(5)
         Me.fono.Name = "fono"
         Me.fono.Size = New System.Drawing.Size(242, 26)
-        Me.fono.TabIndex = 189
+        Me.fono.TabIndex = 17
         '
         'fon
         '
@@ -518,7 +511,7 @@ Partial Class StudentCreate
         Me.fon.Margin = New System.Windows.Forms.Padding(5)
         Me.fon.Name = "fon"
         Me.fon.Size = New System.Drawing.Size(301, 26)
-        Me.fon.TabIndex = 188
+        Me.fon.TabIndex = 16
         '
         'mono
         '
@@ -526,7 +519,7 @@ Partial Class StudentCreate
         Me.mono.Margin = New System.Windows.Forms.Padding(5)
         Me.mono.Name = "mono"
         Me.mono.Size = New System.Drawing.Size(242, 26)
-        Me.mono.TabIndex = 187
+        Me.mono.TabIndex = 15
         '
         'mon
         '
@@ -534,7 +527,7 @@ Partial Class StudentCreate
         Me.mon.Margin = New System.Windows.Forms.Padding(5)
         Me.mon.Name = "mon"
         Me.mon.Size = New System.Drawing.Size(300, 26)
-        Me.mon.TabIndex = 186
+        Me.mon.TabIndex = 14
         '
         'Label19
         '
@@ -637,7 +630,7 @@ Partial Class StudentCreate
         Me.cont.Margin = New System.Windows.Forms.Padding(5)
         Me.cont.Name = "cont"
         Me.cont.Size = New System.Drawing.Size(301, 26)
-        Me.cont.TabIndex = 191
+        Me.cont.TabIndex = 20
         '
         'GroupBox2
         '
@@ -714,7 +707,7 @@ Partial Class StudentCreate
         Me.StudentCreateEnrollBtn.Location = New System.Drawing.Point(472, 88)
         Me.StudentCreateEnrollBtn.Name = "StudentCreateEnrollBtn"
         Me.StudentCreateEnrollBtn.Size = New System.Drawing.Size(141, 39)
-        Me.StudentCreateEnrollBtn.TabIndex = 3
+        Me.StudentCreateEnrollBtn.TabIndex = 25
         Me.StudentCreateEnrollBtn.Text = "Enroll"
         Me.StudentCreateEnrollBtn.UseVisualStyleBackColor = True
         '
@@ -723,7 +716,7 @@ Partial Class StudentCreate
         Me.StudentCreateBackBtn.Location = New System.Drawing.Point(619, 86)
         Me.StudentCreateBackBtn.Name = "StudentCreateBackBtn"
         Me.StudentCreateBackBtn.Size = New System.Drawing.Size(141, 39)
-        Me.StudentCreateBackBtn.TabIndex = 194
+        Me.StudentCreateBackBtn.TabIndex = 26
         Me.StudentCreateBackBtn.Text = "Back"
         Me.StudentCreateBackBtn.UseVisualStyleBackColor = True
         '
@@ -777,6 +770,13 @@ Partial Class StudentCreate
         Me.VScrollBar1.Size = New System.Drawing.Size(17, 645)
         Me.VScrollBar1.TabIndex = 192
         '
+        'sn
+        '
+        Me.sn.Location = New System.Drawing.Point(335, 49)
+        Me.sn.Name = "sn"
+        Me.sn.Size = New System.Drawing.Size(328, 26)
+        Me.sn.TabIndex = 1
+        '
         'StudentCreate
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 20.0!)
@@ -806,7 +806,6 @@ Partial Class StudentCreate
     Friend WithEvents pi As System.Windows.Forms.GroupBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents pl As System.Windows.Forms.TextBox
-    Friend WithEvents sn As System.Windows.Forms.MaskedTextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
     Friend WithEvents gen As System.Windows.Forms.ComboBox
@@ -872,4 +871,5 @@ Partial Class StudentCreate
     Friend WithEvents frm137 As System.Windows.Forms.TextBox
     Friend WithEvents Transferee As System.Windows.Forms.CheckBox
     Friend WithEvents VScrollBar1 As System.Windows.Forms.VScrollBar
+    Friend WithEvents sn As System.Windows.Forms.TextBox
 End Class
