@@ -220,6 +220,7 @@ Module Payment
         End Try
         '  Next
     End Sub
+<<<<<<< HEAD
     Public Sub test()
         Dim conn As New MySqlConnection ' <---
         ' Me.sn.Text = My.Forms.AdminPanel.TextBox1.Text
@@ -280,4 +281,6 @@ Module Payment
             MsgBox(ex)
         End Try
     End Sub
+=======
+>>>>>>> origin/master
 End Module

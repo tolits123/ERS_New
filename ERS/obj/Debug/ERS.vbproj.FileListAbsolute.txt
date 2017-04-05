@@ -408,6 +408,7 @@ C:\Users\Jinwin\Documents\GitHub\forked\ers\ERS_New\ERS\bin\Debug\ERS.exe.config
 C:\Users\Jinwin\Documents\GitHub\forked\ers\ERS_New\ERS\obj\Debug\ERS.exe
 C:\Users\Jinwin\Documents\GitHub\forked\ers\ERS_New\ERS\obj\Debug\ERS.xml
 C:\Users\Jinwin\Documents\GitHub\forked\ers\ERS_New\ERS\obj\Debug\ERS.pdb
+<<<<<<< HEAD
 C:\Users\Jinwin\Documents\GitHub\forked\ers\ERS_New\ERS\bin\Debug\MainScreen.resx
 C:\Users\Jinwin\Documents\GitHub\forked\ers\ERS_New\ERS\bin\Debug\MainScreen.Designer.vb
 C:\Users\Jinwin\Documents\GitHub\forked\ers\ERS_New\ERS\bin\Debug\MainScreen.vb
@@ -609,3 +610,5 @@ C:\Users\Jinwin\Desktop\ERS_New\ERS\obj\Debug\ERS.ViewSubjectR.resources
 C:\Users\Jinwin\Desktop\ERS_New\ERS\obj\Debug\ERS.Webcam.resources
 C:\Users\Jinwin\Desktop\ERS_New\ERS\obj\Debug\ERS.vbproj.GenerateResource.Cache
 C:\Users\Jinwin\Desktop\ERS_New\ERS\obj\Debug\ERS.ViewStud_C.resources
+=======
+>>>>>>> origin/master

@@ -1,6 +1,10 @@
 ﻿Public Class AddPayment_A
+<<<<<<< HEAD
    
     Public t As Integer
+=======
+
+>>>>>>> origin/master
     Private Sub AddPayment_A_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
 
@@ -20,8 +24,8 @@
         Payment_grp.Text = "Full payment"
         partialp.Text = ""
         Dim t As Integer = total.Text
-        Dim totalB As Integer = totalBooks.Text
         total.Text = t
+<<<<<<< HEAD
         If grade.Text = "Grade 1" Then
             t = total.Text
             t = t + totalB
@@ -31,6 +35,9 @@
             t = t + totalB
             total1.Text = t
         End If
+=======
+
+>>>>>>> origin/master
         EnterPartial_grp.Enabled = False
         Dim tuition As Integer
         tuition = t / 2
@@ -52,14 +59,14 @@
 
             Dim tuition As Integer
             Dim partialpayment As Integer
-            Dim total2 As Integer
+            Dim total1 As Integer
             Dim tuition1 As Integer
-            tuition = total1.Text
+            tuition = total.Text
             partialpayment = partialp.Text
 
-            total2 = tuition - partialpayment
+            total1 = tuition - partialpayment
 
-            tuition1 = total2 / 2
+            tuition1 = total1 / 2
 
             prelim.Text = tuition1
             midterm.Text = tuition1
@@ -80,6 +87,7 @@
         Proceed_btn.Enabled = False
         prelim.Text = "-"
         midterm.Text = "-"
+<<<<<<< HEAD
         Dim totalB As Integer = totalBooks.Text
         If grade.Text = "Grade 1" Then
             t = total.Text
@@ -90,18 +98,36 @@
             t = t + totalB
             total1.Text = t
         End If
+=======
+        Dim t As Integer = total.Text
+        total.Text = t
+        total1.Text = total.Text
+>>>>>>> origin/master
     End Sub
 
     Private Sub SearchAddpayemt_btn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SearchAddpayemt_btn.Click
         Try
             SearchAddPayment1_A()
             SearchAddPayment_A()
+<<<<<<< HEAD
             If nameOS.Text = "--------" Then
                 nameOS.Text = "--------"
                 grade.Text = "--------"
             Else
                 CheckBox1.Enabled = True
             End If
+=======
+            If grade.Text = "Grade 1" Then
+
+            ElseIf grade.Text = "Grade 2" Then
+
+
+
+
+            End If
+
+
+>>>>>>> origin/master
 
 
 
@@ -134,7 +160,6 @@
             prelim.Text = "-"
             CheckBox1.Enabled = True
             midterm.Text = "-"
-            total.Enabled = True
         ElseIf pp_rdbnt.Checked = True Then
             Proceed_btn.Enabled = False
             PartialPayment_A()
@@ -152,7 +177,6 @@
             prelim.Text = "-"
             CheckBox1.Enabled = True
             midterm.Text = "-"
-            total.Enabled = True
         End If
         nameOS.Text = "---"
         grade.Text = "---"
@@ -161,6 +185,7 @@
   End Sub
 
     Private Sub enterTuition_btn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles enterTuition_btn.Click
+<<<<<<< HEAD
         If total.Text = "" Then
             MsgBox("Please enter tuitionfee.")
         Else
@@ -235,11 +260,26 @@
             p9.Text = "75"
             subjandbooksComputation()
 
+=======
+        partialp.Text = ""
+        Dim t As Integer = total.Text
+        total.Text = t
+        total1.Text = total.Text
+        fp_rdobnt.Enabled = True
+        pp_rdbnt.Enabled = True
 
+
+    End Sub
+
+    Private Sub GroupBox2_Enter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles GroupBox2.Enter
+>>>>>>> origin/master
+
+<<<<<<< HEAD
         End If
     End Sub
     Private Sub subjandbooksComputation()
         Dim total As Integer
+<<<<<<< HEAD
         Try
             Dim il As Integer = IdLace.Text
             Dim pat As Integer = Patch.Text
@@ -317,5 +357,24 @@
 
     Private Sub p9_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles p9.TextChanged
         subjandbooksComputation()
+=======
+        Dim il As Integer = IdLace.Text
+        Dim pat As Integer = Patch.Text
+        Dim s1 As Integer = p1.Text
+        Dim s2 As Integer = p2.Text
+        Dim s3 As Integer = p3.Text
+        Dim s4 As Integer = p4.Text
+        Dim s5 As Integer = p5.Text
+        Dim s6 As Integer = p6.Text
+        Dim s7 As Integer = p7.Text
+        Dim s8 As Integer = p8.Text
+        Dim s9 As Integer = p9.Text
+        total = il + pat + s1 + s2 + s3 + s4 + s5 + s6 + s7 + s8 + s9
+
+        'comment
+        totalBooks.Text = total
+=======
+>>>>>>> parent of fbcd98c... [04032017] Updated Payment_frm, AdminUpdate_frm, CashierUpdate_frm, RegistrarUpdate_frm
+>>>>>>> origin/master
     End Sub
 End Class
